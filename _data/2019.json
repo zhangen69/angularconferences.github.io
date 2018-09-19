@@ -34,7 +34,23 @@
     }
   ],
   "March": [],
-  "April": [],
+  "April": [
+  {
+      "metadata": {
+        "country_code": "SE",
+        "location": "Stockholm",
+        "title": "ngVikings",
+        "date": "",
+        "logo": "ngvikings.svg",
+        "type": "conference",
+        "desc": "ngVikings is a non-profit, non-commercial, 100% community-driven event comprised of many Nordic Angular groups with more than 3500 active members in total. Always having Angular team members, Google Developer Experts and legendary international speakers onboard, ngVikings Conference guarantees an excellent program: fresh, technically deep and 100% useful."
+      },
+      "links": {
+        "web": "https://ngvikings.org/",
+        "twitter": "ngVikingsConf"
+      }
+    }
+  ],
   "May": [
     {
       "metadata": {
@@ -66,6 +82,21 @@
       "links": {
         "web": "http://angularday.it/",
         "twitter": "angularday"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "ES",
+        "location": "Madrid",
+        "title": "ngSpain",
+        "date": "",
+        "logo": "blank.svg",
+        "type": "conference",
+        "desc": "ngSpain is the only Angular Conference in Spain. 2019 will be it's first eddition and will be held in the capital, Madrid. It is an event run by the community from the community, with organisers from all over Europe belonging to the Angular community."
+      },
+      "links": {
+        "web": "",
+        "twitter": "ngSpain"
       }
     }
   ],
@@ -107,36 +138,6 @@
   "October": [],
   "November": [],
   "December": [
-    {
-      "metadata": {
-        "country_code": "ES",
-        "location": "Madrid",
-        "title": "ngSpain",
-        "date": "",
-        "logo": "blank.svg",
-        "type": "conference",
-        "desc": "ngSpain is the only Angular Conference in Spain. 2019 will be it's first eddition and will be held in the capital, Madrid. It is an event run by the community from the community, with organisers from all over Europe belonging to the Angular community."
-      },
-      "links": {
-        "web": "",
-        "twitter": "ngSpain"
-      }
-    },
-    {
-      "metadata": {
-        "country_code": "SE",
-        "location": "Stockholm",
-        "title": "ngVikings",
-        "date": "",
-        "logo": "ngvikings.svg",
-        "type": "conference",
-        "desc": "ngVikings is a non-profit, non-commercial, 100% community-driven event comprised of many Nordic Angular groups with more than 3500 active members in total. Always having Angular team members, Google Developer Experts and legendary international speakers onboard, ngVikings Conference guarantees an excellent program: fresh, technically deep and 100% useful."
-      },
-      "links": {
-        "web": "https://ngvikings.org/",
-        "twitter": "ngVikingsConf"
-      }
-    },
     {
       "metadata": {
         "country_code": "UA",
