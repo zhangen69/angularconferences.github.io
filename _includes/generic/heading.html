@@ -1,0 +1,10 @@
+<div class="ac-heading{% if include.theme == 'small' %} ac-heading--small{% endif %}{% if include.classes %} {{ include.classes }}{% endif %}">
+  <h2 class="ac-heading-title">
+    {{ include.title }}
+  </h2>
+  {% if include.text %}
+  <p class="ac-heading-text">
+    {{ include.text }}
+  </p>
+  {% endif %}
+</div>

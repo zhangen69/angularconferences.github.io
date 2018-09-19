@@ -1,0 +1,29 @@
+# Site settings
+title: A collection of the world's best Angular conferences, all in one place.
+email: support@ultimateangular.com
+description: A collection of the world's best Angular conferences, all in one place.
+baseurl: ''
+url: 'https://angularconferences.com'
+twitterUsername: ultimateangular
+githubUsername: ultimateangular
+
+# Build settings
+permalink: /:title
+markdown: kramdown
+include: [_pages]
+exclude:
+  [
+    _site,
+    _scripts,
+    node_modules,
+    assets/css/source,
+    TEMPLATE.txt,
+    CONTRIBUTING.md,
+    CHANGELOG.md,
+    LICENSE,
+    README.md,
+    package.json,
+    yarn.lock,
+  ]
+sass:
+  style: compressed

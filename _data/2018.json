@@ -1,0 +1,109 @@
+{
+  "January": [],
+  "February": [],
+  "March": [],
+  "April": [],
+  "May": [],
+  "June": [],
+  "July": [],
+  "August": [],
+  "September": [
+    {
+      "metadata": {
+        "country_code": "CO",
+        "location": "Medellin",
+        "title": "ngColombia",
+        "date": "06-07",
+        "logo": "ngColombia.svg",
+        "type": "conference",
+        "desc": "ngColombia is the first Angular Conference in Latin America. It gathers a diverse mix of top-notch Angular speakers from countries like: England, Denmark, Greece, the USA, Poland and much more."
+      },
+      "links": {
+        "web": "https://www.ngcolombia.com/",
+        "twitter": "yuxiglobal"
+      }
+    }
+  ],
+  "October": [
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Orlando",
+        "title": "ngMix",
+        "date": "10-12",
+        "logo": "ngMix.svg",
+        "month": "10",
+        "type": "conference",
+        "desc": "The AngularMix conference is all about igniting conversations around Angular and enterprise technologies that make modern browsers shine. Learn directly from the Angular team as well as Angular experts from around the world about an incredibly deep list of topics. AngularMix brings the latest and greatest on progressive web apps and mobility, JavaScript/TypeScript, the Angular CLI, RxJS, AI, IoT, building for production with AOT, visualizing data and much more. "
+      },
+      "links": {
+        "web": "http://angularmix.com/",
+        "twitter": "angularmix"
+      }
+    }
+  ],
+  "November": [
+    {
+      "metadata": {
+        "country_code": "GB",
+        "location": "London",
+        "title": "Angular Connect",
+        "date": "06-07",
+        "logo": "angularconnect.svg",
+        "type": "conference",
+        "desc": "Join us for an Angular extravaganza packed with inspiring, practical and entertaining talks. On top of a world-class selection of speakers, there will be quality training workshops, games, great food and drink and loads of opportunities to connect with the Google core Angular team and 1000+ Angular developers."
+      },
+      "links": {
+        "web": "https://angularconnect.com/",
+        "twitter": "angularconnect"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "PL",
+        "location": "Warsaw",
+        "title": "ngPoland",
+        "date": "15",
+        "logo": "ngpoland.svg",
+        "type": "conference",
+        "desc": "The biggest Angular Conference in CEE. Meet Angularians from all over the world - share knowledge. Hear top speakers from around the world. Learn about the present and future of Angular and its ecosystem, TypeScript, tools and much more."
+      },
+      "links": {
+        "web": "http://ng-poland.pl/",
+        "twitter": "ngPolandConf"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "TW",
+        "location": "Taipei City",
+        "title": "ngTaiwan",
+        "date": "16",
+        "logo": "ngTaiwan.svg",
+        "type": "conference",
+        "desc": "Angular Taiwan is an Angular community in Taiwan. We are welcome anyone to join us, and feel free to post and share any articles、courses、videos or any discussion that related to Angular."
+      },
+      "links": {
+        "web": "https://2018.angular.tw/",
+        "twitter": "ngTaiwan"
+      }
+    }
+  ],
+  "December": [
+    {
+      "metadata": {
+        "country_code": "BE",
+        "location": "Ghent",
+        "title": "ngBE",
+        "date": "06-07",
+        "logo": "ngBe.svg",
+        "type": "conference",
+        "desc": "NG-BE 2018 is a 2-day event in Ghent, Belgium, that brings together Angular developers and experts from all over the world to share ideas, news and opinions about Angular."
+      },
+      "links": {
+        "web": "https://ng-be.org",
+        "twitter": "ngBE"
+      }
+    }
+  ]
+}

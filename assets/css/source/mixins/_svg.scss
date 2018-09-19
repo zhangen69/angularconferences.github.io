@@ -1,0 +1,7 @@
+@mixin svg($path) {
+  background-image: url(#{$path}.png);
+
+  .svg & {
+    background-image: url(#{$path}.svg);
+  }
+}

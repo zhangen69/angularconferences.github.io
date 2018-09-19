@@ -1,0 +1,171 @@
+{
+  "January": [
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Atlanta",
+        "title": "ngAtlanta",
+        "date": "09-12",
+        "logo": "ngAtl.svg",
+        "type": "conference",
+        "desc": "2nd annual Angular conference in Atlanta, GA focused on diversity in technology."
+      },
+      "links": {
+        "web": "http://ng-atl.org/",
+        "twitter": "ngAtlanta"
+      }
+    }
+  ],
+  "February": [
+    {
+      "metadata": {
+        "country_code": "IN",
+        "location": "Gurgaon",
+        "title": "ngIndia",
+        "date": "23",
+        "logo": "blank.svg",
+        "type": "conference",
+        "desc": "INDIA'S ANGULAR CONFERENCE!"
+      },
+      "links": {
+        "web": "http://www.ng-ind.com/",
+        "twitter": "angular_india"
+      }
+    }
+  ],
+  "March": [],
+  "April": [],
+  "May": [
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Salt Lake City",
+        "title": "ngConf",
+        "date": "01-03",
+        "logo": "ngconf.png",
+        "type": "conference",
+        "desc": "The World's Original AngularJS Conference in Salt Lake City. Top JavaScript developers from Google and around the world."
+      },
+      "links": {
+        "web": "https://www.ng-conf.org/",
+        "twitter": "ngconf"
+      }
+    }
+  ],
+  "June": [
+    {
+      "metadata": {
+        "country_code": "IT",
+        "location": "Verona",
+        "title": "Angular Day",
+        "date": "13-15",
+        "logo": "blank.svg",
+        "type": "conference",
+        "desc": "Angular Day is dedicated to developers and technical managers. Every year, you can learn about all the updates on Angular and the surrounding technologies, find new partners and get to know new employees."
+      },
+      "links": {
+        "web": "http://angularday.it/",
+        "twitter": "angularday"
+      }
+    }
+  ],
+  "July": [
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Denver",
+        "title": "ngDenver",
+        "date": "30-02",
+        "logo": "ngdenver.png",
+        "type": "conference",
+        "desc": "AngularDenver 2018 is Denver’s first all-day Angular conference! Angular developers from all across the country are coming to Denver, Colorado for a full day of keynote speakers and presentations on Friday, August 3rd. There will also be 2 days of pre-conference workshops, on Wednesday and Thursday, August 2nd and 3rd."
+      },
+      "links": {
+        "web": "http://angulardenver.com/",
+        "twitter": "AngularDenver"
+      }
+    }
+  ],
+  "August": [
+    {
+      "metadata": {
+        "country_code": "BO",
+        "location": "Cochabamba",
+        "title": "ngBolivia",
+        "date": "03",
+        "logo": "ngbolivia.svg",
+        "type": "conference",
+        "desc": "The biggest Angular conference in Bolivia carefully crafted for you and by Angular community! All about Angular and Web from the world experts."
+      },
+      "links": {
+        "web": "https://ng-bolivia.org/",
+        "twitter": "angularBolivia"
+      }
+    }
+  ],
+  "September": [],
+  "October": [],
+  "November": [],
+  "December": [
+    {
+      "metadata": {
+        "country_code": "ES",
+        "location": "Madrid",
+        "title": "ngSpain",
+        "date": "",
+        "logo": "blank.svg",
+        "type": "conference",
+        "desc": "ngSpain is the only Angular Conference in Spain. 2019 will be it's first eddition and will be held in the capital, Madrid. It is an event run by the community from the community, with organisers from all over Europe belonging to the Angular community."
+      },
+      "links": {
+        "web": "",
+        "twitter": "ngSpain"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "SE",
+        "location": "Stockholm",
+        "title": "ngVikings",
+        "date": "",
+        "logo": "ngvikings.svg",
+        "type": "conference",
+        "desc": "ngVikings is a non-profit, non-commercial, 100% community-driven event comprised of many Nordic Angular groups with more than 3500 active members in total. Always having Angular team members, Google Developer Experts and legendary international speakers onboard, ngVikings Conference guarantees an excellent program: fresh, technically deep and 100% useful."
+      },
+      "links": {
+        "web": "https://ngvikings.org/",
+        "twitter": "ngVikingsConf"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "UA",
+        "location": "Jarkiv",
+        "title": "ngTalks",
+        "date": "08-11",
+        "logo": "ngtalks.svg",
+        "type": "conference",
+        "desc": "Join us in a quest of developing a brighter Angular community, attend NgTalks, the first of many conference dedicated to latest and greatest news and insights from the global Angular network, covering best practices, approaches and cutting-edge trends."
+      },
+      "links": {
+        "web": "https://ngtalks.io/",
+        "twitter": "ngTalks_ua"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "DE",
+        "location": "Berlin",
+        "title": "ngDE",
+        "date": "",
+        "logo": "blank.svg",
+        "type": "conference",
+        "desc": "Angular Community Conference • Summer 2019 • Berlin, Germany"
+      },
+      "links": {
+        "web": "https://ng-de.org/",
+        "twitter": "ngdeconf"
+      }
+    }
+  ]
+}

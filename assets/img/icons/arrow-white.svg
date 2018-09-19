@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow" transform="translate(12.000000, 12.000000) rotate(-180.000000) translate(-12.000000, -12.000000) ">
+            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+            <path d="M20,11 L6.83,11 L9.70598395,8.11598258 C10.09496,7.72591999 10.0945197,7.0945197 9.705,6.705 L9.705,6.705 C9.31563925,6.31563925 8.68436075,6.31563925 8.295,6.705 L3.70710678,11.2928932 C3.31658249,11.6834175 3.31658249,12.3165825 3.70710678,12.7071068 L8.295,17.295 C8.68436075,17.6843607 9.31563925,17.6843607 9.705,17.295 L9.705,17.295 C10.0945197,16.9054803 10.09496,16.27408 9.70598395,15.8840174 L6.83,13 L20,13 C20.5522847,13 21,12.5522847 21,12 L21,12 C21,11.4477153 20.5522847,11 20,11 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

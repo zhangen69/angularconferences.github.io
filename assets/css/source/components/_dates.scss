@@ -1,0 +1,128 @@
+.ac-year {
+  display: flex;
+  align-items: center;
+
+  &-logo {
+    height: 38px;
+    margin-right: 14px;
+  }
+
+  &-title {
+    font-size: 2.8rem;
+    font-weight: $font-weight-book;
+    color: $night-80;
+    margin-top: 4px;
+  }
+}
+
+.ac-conf {
+  &-box {
+    border-top: 1px solid $night-10;
+    padding: 30px 0 0;
+
+    @media only screen and (max-width: 560px) {
+      padding: 20px 0 0;
+    }
+
+    &:first-child {
+      border-top: 0;
+    }
+  }
+
+  &-title {
+    font-size: 14px;
+    color: $green;
+    line-height: 26px;
+  }
+}
+
+.ac-box {
+  position: relative;
+  border: 1px solid $night-10;
+  border-radius: $border-radius;
+  padding: 12px 15px 10px;
+  cursor: pointer;
+  transition: 0.2s ease box-shadow;
+  margin-bottom: 30px;
+
+  @media only screen and (max-width: 560px) {
+    margin-bottom: 20px;
+  }
+
+  &:hover {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  }
+
+  &:nth-child(-n + 2) {
+    margin-top: 10px;
+
+    @media only screen and (max-width: 560px) {
+      margin-top: 6px;
+    }
+  }
+
+  &--conference,
+  &--meetup {
+    &:before {
+      content: '';
+      position: absolute;
+      right: 17px;
+      top: 17px;
+      width: 8px;
+      height: 8px;
+      border-radius: 8px;
+    }
+  }
+
+  &--conference {
+    &:before {
+      background: $angular;
+    }
+  }
+
+  &--meetup {
+    &:before {
+      background: $typescript;
+    }
+  }
+
+  &-title {
+    font-size: $font-size-foxstrot;
+    color: $night-80;
+    margin-bottom: 8px;
+    span {
+      text-transform: uppercase;
+      font-size: 8px;
+      background: #f4f9fa;
+      color: $night-50;
+      padding: 4px 6px;
+      border-radius: 3px;
+      margin-left: 5px;
+    }
+  }
+
+  &-date {
+    font-weight: $font-weight-book;
+    font-size: $font-size-epsilon;
+    color: $night-50;
+
+    span {
+      margin: 0 8px;
+
+      @media only screen and (max-width: 560px) {
+        display: block;
+        visibility: hidden;
+        margin: 0;
+        height: 0;
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  &-flag {
+    position: relative;
+    top: -1px;
+    height: 14px;
+    margin-right: 6px;
+  }
+}

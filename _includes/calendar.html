@@ -1,0 +1,36 @@
+{% assign assets = site.data[include.year] %}
+<div class="ac-year">
+  <img class="ac-year-logo" src="/assets/img/confs/angular.svg" alt="angular">
+  <h3 class="ac-year-title">{{ include.year }}</h3>
+</div>
+<div class="ac-conf">
+  {% for conf in assets %}
+    {% if conf[1].size > 0 %}
+    <div class="ac-conf-box">
+      <h2 class="ac-conf-title">{{ conf[0] }}</h2>
+      <div class="grid-2">
+        {% for item in conf[1] %}
+        {% assign month = conf[0] %}
+        {% assign year = include.year %}
+          {% 
+            include generic/conference.html
+            month=month
+            year=year
+          %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+  {% for conf in assets %}
+    {% for item in conf[1] %}
+      {% assign month = conf[0] %}
+      {% assign year = include.year %}
+      {%
+        include generic/modal.html
+        month=month
+        year=year
+      %}
+    {% endfor %}
+  {% endfor %}
+</div>

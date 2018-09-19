@@ -1,0 +1,44 @@
+.newsletter {
+  position: relative;
+  width: 360px;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 560px) {
+    width: 90%;
+  }
+
+  &-email {
+    width: 100%;
+    outline: none;
+    -webkit-appearance: none;
+    background: $white;
+    border-radius: 25px;
+    height: 50px;
+    border: none;
+    padding: 0 24px;
+    font-size: $font-size-foxstrot;
+    font-family: $font-family-primary;
+    font-weight: $font-weight-regular;
+  }
+
+  &-button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+
+    /* IE9- Fallback */
+    background: #bc04c7;
+    background: $gradient;
+    border: none;
+    height: 46px;
+    border-radius: 25px;
+    padding: 0 24px;
+    color: $white;
+    font-weight: $font-weight-book;
+    font-family: $font-family-primary;
+    font-size: $font-size-foxstrot;
+
+    outline: none;
+    cursor: pointer;
+  }
+}

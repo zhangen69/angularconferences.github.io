@@ -1,0 +1,310 @@
+.grid-base,
+%grid-base {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// Base grid
+.grid,
+%grid {
+  @extend %grid-base;
+}
+
+// One column
+.grid-1,
+%grid-1 {
+  @extend %grid-base;
+
+  & > * {
+    width: 100%;
+  }
+}
+
+// Two columns
+.grid-2,
+%grid-2 {
+  @extend %grid-base;
+
+  & > * {
+    width: calc(50% - #{$grid-gutter} / 2);
+
+    .no-flex & {
+      float: left;
+    }
+
+    &:nth-child(2n + 1) {
+      margin-right: $grid-gutter;
+    }
+
+    @media only screen and (max-width: 760px) {
+      width: 100%;
+
+      &:nth-child(2n + 1) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+// Three columns
+.grid-3,
+%grid-3 {
+  @extend %grid-base;
+
+  & > * {
+    width: calc(33.33% - 2 * #{$grid-gutter} / 3);
+
+    .no-flex & {
+      float: left;
+    }
+
+    &:nth-child(3n + 2) {
+      margin-left: $grid-gutter;
+      margin-right: $grid-gutter;
+    }
+
+    @media only screen and (max-width: 1040px) {
+      width: calc(50% - #{$grid-gutter} / 2);
+
+      &:nth-child(3n + 2) {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      &:nth-child(2n + 1) {
+        margin-right: $grid-gutter;
+      }
+    }
+
+    @media only screen and (max-width: 760px) {
+      width: 100%;
+
+      &:nth-child(2n + 1) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+// Four columns
+.grid-4,
+%grid-4 {
+  @extend %grid-base;
+
+  & > * {
+    width: calc(25% - 3 * #{$grid-gutter} / 4);
+
+    .no-flex & {
+      float: left;
+    }
+
+    &:nth-child(4n + 1),
+    &:nth-child(4n + 2),
+    &:nth-child(4n + 3) {
+      margin-right: $grid-gutter;
+    }
+
+    @media only screen and (max-width: 960px) {
+      width: calc(50% - #{$grid-gutter} / 2);
+
+      &:nth-child(4n + 1),
+      &:nth-child(4n + 2),
+      &:nth-child(4n + 3) {
+        margin-right: 0;
+      }
+
+      &:nth-child(2n + 1) {
+        margin-right: $grid-gutter;
+      }
+    }
+
+    @media only screen and (max-width: 760px) {
+      width: 100%;
+
+      &:nth-child(2n + 1) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+// Five columns
+.grid-5,
+%grid-5 {
+  @extend %grid-base;
+
+  & > * {
+    width: calc(20% - 4 * #{$grid-gutter} / 5);
+
+    .no-flex & {
+      float: left;
+    }
+
+    &:nth-child(5n + 2),
+    &:nth-child(5n + 4) {
+      margin-left: $grid-gutter;
+      margin-right: $grid-gutter;
+    }
+
+    @media only screen and (max-width: 980px) {
+      width: calc(25% - 3 * #{$grid-gutter} / 4);
+
+      &:nth-child(5n + 2),
+      &:nth-child(5n + 4) {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      &:nth-child(4n + 1),
+      &:nth-child(4n + 2),
+      &:nth-child(4n + 3) {
+        margin-right: $grid-gutter;
+      }
+    }
+
+    @media only screen and (max-width: 780px) {
+      width: calc(33.33% - 2 * #{$grid-gutter} / 3);
+
+      &:nth-child(4n + 1),
+      &:nth-child(4n + 2),
+      &:nth-child(4n + 3) {
+        margin-right: 0;
+      }
+
+      &:nth-child(3n + 2) {
+        margin-left: $grid-gutter;
+        margin-right: $grid-gutter;
+      }
+    }
+
+    @media only screen and (max-width: 640px) {
+      width: calc(50% - #{$grid-gutter} / 2);
+
+      &:nth-child(3n + 2) {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      &:nth-child(2n + 1) {
+        margin-right: $grid-gutter;
+      }
+    }
+
+    @media only screen and (max-width: 540px) {
+      width: 100%;
+
+      &:nth-child(2n + 1) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+// Six columns
+.grid-6,
+%grid-6 {
+  @extend %grid-base;
+
+  & > * {
+    width: calc(16.66% - 5 * #{$grid-gutter} / 6);
+
+    .no-flex & {
+      float: left;
+    }
+    &:nth-child(6n + 1),
+    &:nth-child(6n + 2),
+    &:nth-child(6n + 3),
+    &:nth-child(6n + 4),
+    &:nth-child(6n + 5) {
+      margin-right: $grid-gutter;
+    }
+
+    &:nth-child(n + 7) {
+      margin-top: 40px;
+    }
+    @media only screen and (max-width: 980px) {
+      width: calc(20% - 2 * #{$grid-gutter} / 5);
+
+      &:nth-child(n + 5) {
+        margin-top: 40px;
+      }
+    }
+
+    @media only screen and (max-width: 780px) {
+      width: calc(20% - 3 * #{$grid-gutter} / 4);
+
+      &:nth-child(n + 5) {
+        margin-top: 40px;
+      }
+    }
+
+    @media only screen and (max-width: 560px) {
+      width: calc(30% - #{$grid-gutter} / 3);
+      &:nth-child(6n + 1),
+      &:nth-child(6n + 2),
+      &:nth-child(6n + 3),
+      &:nth-child(6n + 4),
+      &:nth-child(6n + 5) {
+        margin-right: 10px;
+      }
+      &:nth-child(n + 4) {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+// Seven columns
+.grid-7,
+%grid-7 {
+  @extend %grid-base;
+
+  & > * {
+    width: calc(14.28% - 6 * #{$grid-gutter} / 7);
+
+    .no-flex & {
+      float: left;
+    }
+
+    @media only screen and (max-width: 980px) {
+      width: calc(20% - 4 * #{$grid-gutter} / 5);
+
+      &:nth-child(7n + 1),
+      &:nth-child(7n + 2),
+      &:nth-child(7n + 5),
+      &:nth-child(7n + 6) {
+        margin-right: 0;
+      }
+    }
+
+    @media only screen and (max-width: 780px) {
+      width: calc(25% - 3 * #{$grid-gutter} / 4);
+
+      &:nth-child(5n + 2),
+      &:nth-child(5n + 4) {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      &:nth-child(4n + 1),
+      &:nth-child(4n + 2),
+      &:nth-child(4n + 3) {
+        margin-right: $grid-gutter;
+      }
+    }
+
+    @media only screen and (max-width: 560px) {
+      width: calc(50% - #{$grid-gutter} / 2);
+
+      &:nth-child(4n + 1),
+      &:nth-child(4n + 2),
+      &:nth-child(4n + 3) {
+        margin-right: 0;
+      }
+
+      &:nth-child(2n + 1) {
+        margin-right: $grid-gutter;
+      }
+    }
+  }
+}

@@ -1,0 +1,377 @@
+.subscribe {
+  padding: 60px 30px;
+  background: $white;
+  text-align: center;
+
+  &-title {
+    color: $night-80;
+    font-size: $font-size-alpha;
+    line-height: 32px;
+    margin-bottom: $spacing5;
+  }
+
+  &-text {
+    color: $night-50;
+    margin-bottom: $spacing40;
+    font-size: $font-size-foxstrot;
+    line-height: 22px;
+  }
+}
+
+/* ANTI SPAM */
+.ml_message_wrapper {
+  position: absolute !important;
+  left: -9999px !important;
+}
+
+/* LOADER */
+.ml-form-embedSubmitLoad {
+  width: 20px;
+  height: 20px;
+}
+
+.ml-form-embedSubmitLoad:after {
+  content: ' ';
+  display: block;
+  width: 11px;
+  height: 11px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  border-color: #ffffff #ffffff #ffffff transparent;
+  animation: ml-form-embedSubmitLoad 1.2s linear infinite;
+}
+
+@keyframes ml-form-embedSubmitLoad {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#mlb2-1045148.ml-form-embedContainer {
+  box-sizing: border-box;
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+  position: static;
+  width: 100% !important;
+}
+
+#mlb2-1045148.ml-form-embedContainer h4,
+#mlb2-1045148.ml-form-embedContainer p,
+#mlb2-1045148.ml-form-embedContainer span,
+#mlb2-1045148.ml-form-embedContainer button {
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+
+#mlb2-1045148.ml-form-embedContainer .ml-form-embedWrapper {
+  display: inline-block !important;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#mlb2-1045148.ml-form-embedContainer .ml-form-embedWrapper.embedPopup,
+#mlb2-1045148.ml-form-embedContainer .ml-form-embedWrapper.embedDefault {
+  width: 400px;
+}
+
+#mlb2-1045148.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+  max-width: 400px;
+  width: 100%;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody.ml-form-embedBodyHorizontal {
+  padding-bottom: 0;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent,
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent {
+  margin: 20px 0;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent,
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  h4 {
+  color: $night-80;
+  font-size: $font-size-alpha;
+  line-height: 32px;
+  margin-bottom: $spacing5;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent,
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  p {
+  color: $night-50;
+  font-size: $font-size-foxstrot;
+  line-height: 22px;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  form {
+  margin: 0;
+  width: 100%;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-formContent.horozintalForm {
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow {
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow.ml-last-item {
+  margin: 0;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow.ml-formfieldHorizintal {
+  margin: 0;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input {
+  width: 100% !important;
+  outline: none !important;
+  -webkit-appearance: none !important;
+  background: $white !important;
+  border-radius: 25px !important;
+  height: 50px !important;
+  border: 1px solid $night-10 !important;
+  padding: 0 24px !important;
+  font-size: $font-size-foxstrot !important;
+  font-family: $font-family-primary !important;
+  font-weight: $font-weight-regular !important;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input::-webkit-input-placeholder,
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input::-webkit-input-placeholder {
+  color: $night-40;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input::-moz-placeholder,
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input::-moz-placeholder {
+  color: $night-40;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input:-ms-input-placeholder,
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input:-ms-input-placeholder {
+  color: $night-40;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input:-moz-placeholder,
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input:-moz-placeholder {
+  color: $night-40;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow {
+  height: 42px;
+}
+
+.ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields {
+  box-sizing: border-box;
+  float: left;
+  padding-right: 10px;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input {
+  width: 100% !important;
+  outline: none !important;
+  -webkit-appearance: none !important;
+  background: $white !important;
+  border-radius: 25px !important;
+  height: 50px !important;
+  border: 1px solid $night-10 !important;
+  padding: 0 24px !important;
+  font-size: $font-size-foxstrot !important;
+  font-family: $font-family-primary !important;
+  font-weight: $font-weight-regular !important;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+
+  /* IE9- Fallback */
+  background: #bc04c7;
+  background: $gradient;
+  border: none;
+  height: 46px;
+  border-radius: 25px;
+  padding: 0 24px;
+  color: $white;
+  font-weight: $font-weight-book;
+  font-family: $font-family-primary;
+  font-size: $font-size-foxstrot;
+
+  outline: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (max-width: 560px) {
+    position: static;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 6px;
+  }
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit {
+  margin: 0 !important;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit
+  button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+
+  /* IE9- Fallback */
+  background: #bc04c7;
+  background: $gradient;
+  border: none;
+  height: 46px;
+  border-radius: 25px;
+  padding: 0 24px;
+  color: $white;
+  font-weight: $font-weight-book;
+  font-family: $font-family-primary;
+  font-size: $font-size-foxstrot;
+
+  outline: none;
+  cursor: pointer;
+
+  @media only screen and (max-width: 560px) {
+    position: static;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 6px;
+  }
+}
+
+.ml-error input {
+  background: url(https://bucket.mlcdn.com/images/default/error-icon.png) 98%
+    center no-repeat #ffffff !important;
+  background-size: 24px 24px !important;
+}
+
+.ml-error .label-description {
+  color: #ff0000 !important;
+}
+
+.ml-error .label-description p {
+  color: #ff0000 !important;
+}
+
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow.ml-error
+  .label-description
+  p,
+#mlb2-1045148.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow.ml-error
+  .label-description
+  p:first-letter {
+  color: #ff0000 !important;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="374px" height="400px" viewBox="0 0 374 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>angular</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="angular" fill-rule="nonzero">
+            <polyline id="Shape" fill="#DD0031" points="187 0 0.8 66.4 29.2 312.6 187 400 344.8 312.6 373.2 66.4"></polyline>
+            <polyline id="Shape" fill="#C3002F" points="187 0 187 44.4 187 44.2 187 400 344.8 312.6 373.2 66.4"></polyline>
+            <path d="M187,44.2 L70.6,305.2 L114,305.2 L137.4,246.8 L236.2,246.8 L259.6,305.2 L303,305.2 L187,44.2 Z M221,210.8 L153,210.8 L187,129 L221,210.8 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

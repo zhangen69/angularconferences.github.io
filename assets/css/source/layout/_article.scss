@@ -1,0 +1,53 @@
+.ac-article {
+  max-width: 760px;
+  margin: 100px auto;
+
+  h1 {
+    font-size: 44px;
+    color: $night-80;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 0 40px;
+  }
+
+  h2 {
+    color: $night-80;
+    letter-spacing: 1px;
+    margin: 60px 0 20px;
+  }
+
+  h3 {
+    color: $night-80;
+    font-size: 20px;
+    margin: 40px 0 10px;
+  }
+
+  p {
+    font-size: 18px;
+    color: $night-50;
+    line-height: 28px;
+
+    margin-bottom: 20px;
+
+    a {
+      color: $purple;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  ul {
+    padding-left: 40px;
+    margin-bottom: 20px;
+
+    li {
+      color: $night-50;
+      font-size: 18px;
+      letter-spacing: 0.4px;
+      line-height: 28px;
+      list-style: disc;
+    }
+  }
+}

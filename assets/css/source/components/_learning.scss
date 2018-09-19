@@ -1,0 +1,88 @@
+.ac-learning {
+  text-align: center;
+  color: $white;
+
+  &-title {
+    font-size: 5.2rem;
+
+    @media only screen and (max-width: 560px) {
+      font-size: 3.8rem;
+      line-height: 4.6rem;
+    }
+  }
+
+  &-text {
+    font-size: $font-size-gamma;
+    margin: $spacing10 0 $spacing40;
+
+    @media only screen and (max-width: 560px) {
+      font-size: 1.6rem;
+      line-height: 22px;
+    }
+  }
+}
+
+.learning {
+  margin-top: 80px;
+
+  &__block {
+    @media only screen and (max-width: 1040px) {
+      &:nth-child(n + 2) {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  &__title {
+    text-align: center;
+
+    img {
+      height: 42px;
+    }
+
+    h2 {
+      font-weight: $font-weight-book;
+      font-size: 22px;
+      line-height: 32px;
+      margin: 10px 0 4px;
+    }
+
+    p {
+      font-size: 14px;
+      color: $night-60;
+      margin-bottom: 30px;
+
+      span {
+        color: $night-80;
+        font-weight: $font-weight-book;
+      }
+    }
+  }
+}
+
+.video-preview {
+  margin-top: 40px;
+  margin-bottom: 80px;
+
+  @media only screen and (max-width: 560px) {
+    margin-bottom: 60px;
+  }
+}
+
+.video-responsive {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 54.25%;
+  height: 0;
+
+  iframe {
+    overflow: hidden;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+  }
+}

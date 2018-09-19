@@ -1,0 +1,65 @@
+/* HEADER */
+%ac-logo-dimensions {
+  display: inline-block;
+  width: auto;
+  height: 40px;
+}
+
+.ac-header {
+  text-align: center;
+  margin-bottom: 80px;
+
+  @include z-index(relative, 10);
+
+  &--page {
+    background: $gradient;
+    padding: $spacing40 0;
+  }
+
+  &__intro {
+    font-size: $font-size-foxstrot;
+    font-weight: $font-weight-book;
+    line-height: 28px;
+    color: $white;
+    margin-right: 8px;
+
+    .footer & {
+      color: $white-70;
+      font-weight: $font-weight-regular;
+      font-size: $font-size-epsilon;
+    }
+
+    @media only screen and (max-width: 860px) {
+      font-size: $font-size-delta;
+      line-height: 26px;
+    }
+
+    @media only screen and (max-width: 560px) {
+      font-size: $font-size-foxstrot;
+      line-height: 24px;
+    }
+  }
+
+  &__logo {
+    &-link {
+      @extend %ac-logo-dimensions;
+
+      .footer & {
+        height: 30px;
+      }
+    }
+
+    &-text {
+      text-indent: -9999px;
+      position: absolute;
+    }
+
+    &-image {
+      @extend %ac-logo-dimensions;
+
+      .footer & {
+        height: 30px;
+      }
+    }
+  }
+}

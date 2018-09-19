@@ -1,0 +1,45 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="@ultimatecourses">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 300 }}{% else %}{{ site.description }}{% endif %}">
+  <title>Angular Conferences: {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/app.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico'>
+  <script>
+    var supportsSVG = !!(document.createElementNS && document.createElementNS('http://www.w3.org/2000/svg','svg').createSVGRect);
+    supportsSVG && (document.documentElement.className += 'svg');
+    var ie9 = !!(Function('/*@cc_on return (/^9/.test(@_jscript_version) && /MSIE 9\.0(?!.*IEMobile)/i.test(navigator.userAgent)); @*/')());
+    ie9 && (document.documentElement.className += ' ie9');
+    !!(window.MSInputMethodContext && document.documentMode) && (document.documentElement.className += ' ie11');
+    (function(d){
+      var c = " ", f = "flex", fw = "-webkit-"+f, e = d.createElement('b');
+      try { 
+        e.style.display = fw; 
+        e.style.display = f; 
+        c += (e.style.display == f || e.style.display == fw) ? f : "no-"+f; 
+      } catch(e) { 
+        c += "no-"+f; 
+      }
+      d.documentElement.className += c; 
+    })(document);
+  </script>
+  <script>
+    (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-TLC6JCQ':true});
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20440416-25"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-20440416-25');
+  </script>
+  {% include generic/social.html %}
+</head>

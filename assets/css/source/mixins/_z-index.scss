@@ -1,0 +1,4 @@
+@mixin z-index($position, $amount) {
+  position: $position;
+  z-index: $amount;
+}

@@ -1,0 +1,537 @@
+{% case item.metadata.country_code %}
+  {% when "AF" %}
+    {% assign country = "Afghanistan" %}
+  {% when "AX" %}
+    {% assign country = "Aland Islands" %}
+  {% when "AL" %}
+    {% assign country = "Albania" %}
+  {% when "DZ" %}
+    {% assign country = "Algeria" %}
+  {% when "AS" %}
+    {% assign country = "American Samoa" %}
+  {% when "AD" %}
+    {% assign country = "Andorra" %}
+  {% when "AO" %}
+    {% assign country = "Angola" %}
+  {% when "AI" %}
+    {% assign country = "Anguilla" %}
+  {% when "AQ" %}
+    {% assign country = "Antarctica" %}
+  {% when "AG" %}
+    {% assign country = "Antigua and Barbuda" %}
+  {% when "AR" %}
+    {% assign country = "Argentina" %}
+  {% when "AM" %}
+    {% assign country = "Armenia" %}
+  {% when "AW" %}
+    {% assign country = "Aruba" %}
+  {% when "AU" %}
+    {% assign country = "Australia" %}
+  {% when "AT" %}
+    {% assign country = "Austria" %}
+  {% when "AZ" %}
+    {% assign country = "Azerbaijan" %}
+  {% when "BS" %}
+    {% assign country = "Bahamas" %}
+  {% when "BH" %}
+    {% assign country = "Bahrain" %}
+  {% when "BD" %}
+    {% assign country = "Bangladesh" %}
+  {% when "BB" %}
+    {% assign country = "Barbados" %}
+  {% when "BY" %}
+    {% assign country = "Belarus" %}
+  {% when "BE" %}
+    {% assign country = "Belgium" %}
+  {% when "BZ" %}
+    {% assign country = "Belize" %}
+  {% when "BJ" %}
+    {% assign country = "Benin" %}
+  {% when "BM" %}
+    {% assign country = "Bermuda" %}
+  {% when "BT" %}
+    {% assign country = "Bhutan" %}
+  {% when "BO" %}
+    {% assign country = "Bolivia" %}
+  {% when "BA" %}
+    {% assign country = "Bosnia and Herzegovina" %}
+  {% when "BW" %}
+    {% assign country = "Botswana" %}
+  {% when "BV" %}
+    {% assign country = "Bouvet Island" %}
+  {% when "BR" %}
+    {% assign country = "Brazil" %}
+  {% when "IO" %}
+    {% assign country = "British Indian Ocean Territory" %}
+  {% when "BN" %}
+    {% assign country = "Brunei Darussalam" %}
+  {% when "BG" %}
+    {% assign country = "Bulgaria" %}
+  {% when "BF" %}
+    {% assign country = "Burkina Faso" %}
+  {% when "BI" %}
+    {% assign country = "Burundi" %}
+  {% when "KH" %}
+    {% assign country = "Cambodia" %}
+  {% when "CM" %}
+    {% assign country = "Cameroon" %}
+  {% when "CA" %}
+    {% assign country = "Canada" %}
+  {% when "CV" %}
+    {% assign country = "Cape Verde" %}
+  {% when "KY" %}
+    {% assign country = "Cayman Islands" %}
+  {% when "CF" %}
+    {% assign country = "Central African Republic" %}
+  {% when "TD" %}
+    {% assign country = "Chad" %}
+  {% when "CL" %}
+    {% assign country = "Chile" %}
+  {% when "CN" %}
+    {% assign country = "China" %}
+  {% when "CX" %}
+    {% assign country = "Christmas Island" %}
+  {% when "CO" %}
+    {% assign country = "Colombia" %}
+  {% when "KM" %}
+    {% assign country = "Comoros" %}
+  {% when "CG" %}
+    {% assign country = "Congo" %}
+  {% when "CK" %}
+    {% assign country = "Cook Islands" %}
+  {% when "CR" %}
+    {% assign country = "Costa Rica" %}
+  {% when "CI" %}
+    {% assign country = "Cote D'Ivoire" %}
+  {% when "HR" %}
+    {% assign country = "Croatia" %}
+  {% when "CU" %}
+    {% assign country = "Cuba" %}
+  {% when "CY" %}
+    {% assign country = "Cyprus" %}
+  {% when "CZ" %}
+    {% assign country = "Czech Republic" %}
+  {% when "DK" %}
+    {% assign country = "Denmark" %}
+  {% when "DJ" %}
+    {% assign country = "Djibouti" %}
+  {% when "DM" %}
+    {% assign country = "Dominica" %}
+  {% when "DO" %}
+    {% assign country = "Dominican Republic" %}
+  {% when "EC" %}
+    {% assign country = "Ecuador" %}
+  {% when "EG" %}
+    {% assign country = "Egypt" %}
+  {% when "SV" %}
+    {% assign country = "El Salvador" %}
+  {% when "GQ" %}
+    {% assign country = "Equatorial Guinea" %}
+  {% when "ER" %}
+    {% assign country = "Eritrea" %}
+  {% when "EE" %}
+    {% assign country = "Estonia" %}
+  {% when "ET" %}
+    {% assign country = "Ethiopia" %}
+  {% when "FK" %}
+    {% assign country = "Falkland Islands" %}
+  {% when "FO" %}
+    {% assign country = "Faroe Islands" %}
+  {% when "FJ" %}
+    {% assign country = "Fiji" %}
+  {% when "FI" %}
+    {% assign country = "Finland" %}
+  {% when "FR" %}
+    {% assign country = "France" %}
+  {% when "GF" %}
+    {% assign country = "French Guiana" %}
+  {% when "PF" %}
+    {% assign country = "French Polynesia" %}
+  {% when "TF" %}
+    {% assign country = "French Southern Territories" %}
+  {% when "GA" %}
+    {% assign country = "Gabon" %}
+  {% when "GM" %}
+    {% assign country = "Gambia" %}
+  {% when "GE" %}
+    {% assign country = "Georgia" %}
+  {% when "DE" %}
+    {% assign country = "Germany" %}
+  {% when "GH" %}
+    {% assign country = "Ghana" %}
+  {% when "GI" %}
+    {% assign country = "Gibraltar" %}
+  {% when "GR" %}
+    {% assign country = "Greece" %}
+  {% when "GL" %}
+    {% assign country = "Greenland" %}
+  {% when "GD" %}
+    {% assign country = "Grenada" %}
+  {% when "GP" %}
+    {% assign country = "Guadeloupe" %}
+  {% when "GU" %}
+    {% assign country = "Guam" %}
+  {% when "GT" %}
+    {% assign country = "Guatemala" %}
+  {% when "GG" %}
+    {% assign country = "Guernsey" %}
+  {% when "GN" %}
+    {% assign country = "Guinea" %}
+  {% when "GW" %}
+    {% assign country = "Guinea-Bissau" %}
+  {% when "GY" %}
+    {% assign country = "Guyana" %}
+  {% when "HT" %}
+    {% assign country = "Haiti" %}
+  {% when "HM" %}
+    {% assign country = "Heard Island and Mcdonald Islands" %}
+  {% when "VA" %}
+    {% assign country = "Holy See (Vatican City State)" %}
+  {% when "HN" %}
+    {% assign country = "Honduras" %}
+  {% when "HK" %}
+    {% assign country = "Hong Kong" %}
+  {% when "HU" %}
+    {% assign country = "Hungary" %}
+  {% when "IS" %}
+    {% assign country = "Iceland" %}
+  {% when "IN" %}
+    {% assign country = "India" %}
+  {% when "ID" %}
+    {% assign country = "Indonesia" %}
+  {% when "IR" %}
+    {% assign country = "Iran" %}
+  {% when "IQ" %}
+    {% assign country = "Iraq" %}
+  {% when "IE" %}
+    {% assign country = "Ireland" %}
+  {% when "IM" %}
+    {% assign country = "Isle of Man" %}
+  {% when "IL" %}
+    {% assign country = "Israel" %}
+  {% when "IT" %}
+    {% assign country = "Italy" %}
+  {% when "JM" %}
+    {% assign country = "Jamaica" %}
+  {% when "JP" %}
+    {% assign country = "Japan" %}
+  {% when "JE" %}
+    {% assign country = "Jersey" %}
+  {% when "JO" %}
+    {% assign country = "Jordan" %}
+  {% when "KZ" %}
+    {% assign country = "Kazakhstan" %}
+  {% when "KE" %}
+    {% assign country = "Kenya" %}
+  {% when "KI" %}
+    {% assign country = "Kiribati" %}
+  {% when "KP" %}
+    {% assign country = "People's Republic of Korea" %}
+  {% when "KR" %}
+    {% assign country = "Korea" %}
+  {% when "KW" %}
+    {% assign country = "Kuwait" %}
+  {% when "KG" %}
+    {% assign country = "Kyrgyzstan" %}
+  {% when "LA" %}
+    {% assign country = "Lao People's Democratic Republic" %}
+  {% when "LV" %}
+    {% assign country = "Latvia" %}
+  {% when "LB" %}
+    {% assign country = "Lebanon" %}
+  {% when "LS" %}
+    {% assign country = "Lesotho" %}
+  {% when "LR" %}
+    {% assign country = "Liberia" %}
+  {% when "LY" %}
+    {% assign country = "Libyan Arab Jamahiriya" %}
+  {% when "LI" %}
+    {% assign country = "Liechtenstein" %}
+  {% when "LT" %}
+    {% assign country = "Lithuania" %}
+  {% when "LU" %}
+    {% assign country = "Luxembourg" %}
+  {% when "MO" %}
+    {% assign country = "Macao" %}
+  {% when "MK" %}
+    {% assign country = "Macedonia" %}
+  {% when "MG" %}
+    {% assign country = "Madagascar" %}
+  {% when "MW" %}
+    {% assign country = "Malawi" %}
+  {% when "MY" %}
+    {% assign country = "Malaysia" %}
+  {% when "MV" %}
+    {% assign country = "Maldives" %}
+  {% when "ML" %}
+    {% assign country = "Mali" %}
+  {% when "MT" %}
+    {% assign country = "Malta" %}
+  {% when "MH" %}
+    {% assign country = "Marshall Islands" %}
+  {% when "MQ" %}
+    {% assign country = "Martinique" %}
+  {% when "MR" %}
+    {% assign country = "Mauritania" %}
+  {% when "MU" %}
+    {% assign country = "Mauritius" %}
+  {% when "YT" %}
+    {% assign country = "Mayotte" %}
+  {% when "MX" %}
+    {% assign country = "Mexico" %}
+  {% when "FM" %}
+    {% assign country = "Micronesia" %}
+  {% when "MD" %}
+    {% assign country = "Moldova" %}
+  {% when "MC" %}
+    {% assign country = "Monaco" %}
+  {% when "MN" %}
+    {% assign country = "Mongolia" %}
+  {% when "MS" %}
+    {% assign country = "Montserrat" %}
+  {% when "MA" %}
+    {% assign country = "Morocco" %}
+  {% when "MZ" %}
+    {% assign country = "Mozambique" %}
+  {% when "MM" %}
+    {% assign country = "Myanmar" %}
+  {% when "NA" %}
+    {% assign country = "Namibia" %}
+  {% when "NR" %}
+    {% assign country = "Nauru" %}
+  {% when "NP" %}
+    {% assign country = "Nepal" %}
+  {% when "NL" %}
+    {% assign country = "Netherlands" %}
+  {% when "AN" %}
+    {% assign country = "Netherlands Antilles" %}
+  {% when "NC" %}
+    {% assign country = "New Caledonia" %}
+  {% when "NZ" %}
+    {% assign country = "New Zealand" %}
+  {% when "NI" %}
+    {% assign country = "Nicaragua" %}
+  {% when "NE" %}
+    {% assign country = "Niger" %}
+  {% when "NG" %}
+    {% assign country = "Nigeria" %}
+  {% when "NU" %}
+    {% assign country = "Niue" %}
+  {% when "NF" %}
+    {% assign country = "Norfolk Island" %}
+  {% when "MP" %}
+    {% assign country = "Northern Mariana Islands" %}
+  {% when "NO" %}
+    {% assign country = "Norway" %}
+  {% when "OM" %}
+    {% assign country = "Oman" %}
+  {% when "PK" %}
+    {% assign country = "Pakistan" %}
+  {% when "PW" %}
+    {% assign country = "Palau" %}
+  {% when "PS" %}
+    {% assign country = "Palestinian Territory" %}
+  {% when "PA" %}
+    {% assign country = "Panama" %}
+  {% when "PG" %}
+    {% assign country = "Papua New Guinea" %}
+  {% when "PY" %}
+    {% assign country = "Paraguay" %}
+  {% when "PE" %}
+    {% assign country = "Peru" %}
+  {% when "PH" %}
+    {% assign country = "Philippines" %}
+  {% when "PN" %}
+    {% assign country = "Pitcairn" %}
+  {% when "PL" %}
+    {% assign country = "Poland" %}
+  {% when "PT" %}
+    {% assign country = "Portugal" %}
+  {% when "PR" %}
+    {% assign country = "Puerto Rico" %}
+  {% when "QA" %}
+    {% assign country = "Qatar" %}
+  {% when "RE" %}
+    {% assign country = "Reunion" %}
+  {% when "RO" %}
+    {% assign country = "Romania" %}
+  {% when "RU" %}
+    {% assign country = "Russia" %}
+  {% when "RW" %}
+    {% assign country = "Rwanda" %}
+  {% when "SH" %}
+    {% assign country = "Saint Helena" %}
+  {% when "KN" %}
+    {% assign country = "Saint Kitts and Nevis" %}
+  {% when "LC" %}
+    {% assign country = "Saint Lucia" %}
+  {% when "PM" %}
+    {% assign country = "Saint Pierre and Miquelon" %}
+  {% when "VC" %}
+    {% assign country = "Saint Vincent and the Grenadines" %}
+  {% when "WS" %}
+    {% assign country = "Samoa" %}
+  {% when "SM" %}
+    {% assign country = "San Marino" %}
+  {% when "ST" %}
+    {% assign country = "Sao Tome and Principe" %}
+  {% when "SA" %}
+    {% assign country = "Saudi Arabia" %}
+  {% when "SN" %}
+    {% assign country = "Senegal" %}
+  {% when "CS" %}
+    {% assign country = "Serbia and Montenegro" %}
+  {% when "SC" %}
+    {% assign country = "Seychelles" %}
+  {% when "SL" %}
+    {% assign country = "Sierra Leone" %}
+  {% when "SG" %}
+    {% assign country = "Singapore" %}
+  {% when "SK" %}
+    {% assign country = "Slovakia" %}
+  {% when "SI" %}
+    {% assign country = "Slovenia" %}
+  {% when "SB" %}
+    {% assign country = "Solomon Islands" %}
+  {% when "SO" %}
+    {% assign country = "Somalia" %}
+  {% when "ZA" %}
+    {% assign country = "South Africa" %}
+  {% when "GS" %}
+    {% assign country = "South Georgia and the South Sandwich Islands" %}
+  {% when "ES" %}
+    {% assign country = "Spain" %}
+  {% when "LK" %}
+    {% assign country = "Sri Lanka" %}
+  {% when "SD" %}
+    {% assign country = "Sudan" %}
+  {% when "SR" %}
+    {% assign country = "Suriname" %}
+  {% when "SJ" %}
+    {% assign country = "Svalbard and Jan Mayen" %}
+  {% when "SZ" %}
+    {% assign country = "Swaziland" %}
+  {% when "SE" %}
+    {% assign country = "Sweden" %}
+  {% when "CH" %}
+    {% assign country = "Switzerland" %}
+  {% when "SY" %}
+    {% assign country = "Syrian Arab Republic" %}
+  {% when "TW" %}
+    {% assign country = "Taiwan" %}
+  {% when "TJ" %}
+    {% assign country = "Tajikistan" %}
+  {% when "TZ" %}
+    {% assign country = "Tanzania, United Republic of" %}
+  {% when "TH" %}
+    {% assign country = "Thailand" %}
+  {% when "TL" %}
+    {% assign country = "Timor-Leste" %}
+  {% when "TG" %}
+    {% assign country = "Togo" %}
+  {% when "TK" %}
+    {% assign country = "Tokelau" %}
+  {% when "TO" %}
+    {% assign country = "Tonga" %}
+  {% when "TT" %}
+    {% assign country = "Trinidad and Tobago" %}
+  {% when "TN" %}
+    {% assign country = "Tunisia" %}
+  {% when "TR" %}
+    {% assign country = "Turkey" %}
+  {% when "TM" %}
+    {% assign country = "Turkmenistan" %}
+  {% when "TC" %}
+    {% assign country = "Turks and Caicos Islands" %}
+  {% when "TV" %}
+    {% assign country = "Tuvalu" %}
+  {% when "UG" %}
+    {% assign country = "Uganda" %}
+  {% when "UA" %}
+    {% assign country = "Ukraine" %}
+  {% when "AE" %}
+    {% assign country = "United Arab Emirates" %}
+  {% when "GB" %}
+    {% assign country = "UK" %}
+  {% when "US" %}
+    {% assign country = "USA" %}
+  {% when "UM" %}
+    {% assign country = "United States Minor Outlying Islands" %}
+  {% when "UY" %}
+    {% assign country = "Uruguay" %}
+  {% when "UZ" %}
+    {% assign country = "Uzbekistan" %}
+  {% when "VU" %}
+    {% assign country = "Vanuatu" %}
+  {% when "VE" %}
+    {% assign country = "Venezuela" %}
+  {% when "VN" %}
+    {% assign country = "Vietnam" %}
+  {% when "VG" %}
+    {% assign country = "Virgin Islands, British" %}
+  {% when "VI" %}
+    {% assign country = "Virgin Islands, U.S." %}
+  {% when "WF" %}
+    {% assign country = "Wallis and Futuna" %}
+  {% when "EH" %}
+    {% assign country = "Western Sahara" %}
+  {% when "YE" %}
+    {% assign country = "Yemen" %}
+  {% when "ZM" %}
+    {% assign country = "Zambia" %}
+  {% when "ZW" %
+    {% assign country = "Zimbabwe" %}
+{% endcase %}
+
+<div class="modal">
+  <button type="button" class="modal-close toggle-modal">
+    <img src="{{ site.baseurl }}/assets/img/icons/close.svg" alt="Close icon">
+  </button>
+  <div class="modal-header">
+    <div class="modal-person">
+      <img class="modal-person-img" src="{{ site.baseurl }}/assets/img/confs/{{ item.metadata.logo }}" alt="{{ include.name }}">
+      <div>
+        <h3 class="modal-person-name">
+          {{ item.metadata.title }}
+          <span>{% if item.metadata.type == 'conference' or item.metadata.type == 'meetup' %}{{ item.metadata.type }}{% endif %}</span>
+        </h3>
+        <p class="modal-person-title">
+          {% if item.metadata.date == '' %}
+            TBC
+          {% else %}
+            {{ month }} {{ item.metadata.date }}, {{ year }}
+          {% endif %}
+        </p>
+        <p class="modal-person-title">
+          <img class="ac-box-flag" src="/assets/img/flags/{{ item.metadata.country_code | downcase }}.svg">{% if item.metadata.location and item.metadata.location != '' %}{{ item.metadata.location }}, {% endif %}{{ country }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-nav">
+    <a target="_blank" rel="noopener" href="https://twitter.com/{{ item.links.twitter }}">
+      <img src="/assets/img/icons/twitter.svg" alt="Twitter Icon"> @{{ item.links.twitter }}
+    </a>
+    <span>&bull;</span>
+    <a target="_blank" rel="noopener" href="{{ item.links.web }}">
+      <img src="/assets/img/icons/web.svg" alt="Website Icon"> {{ item.links.web }}
+    </a>
+  </div>
+
+  <div class="modal-content">
+    <p>
+      {{ item.metadata.desc }}
+    </p>
+  </div>
+
+  <div class="modal-ua">
+    <a target="_blank" rel="noopener" href="https://ultimateangular.com/">
+      <div>
+        <div class="ac-header__logo-link">
+          <img class="ac-header__logo-image" src="/assets/img/icons/ua.svg" alt="Ultimate Angular">
+        </div>
+      </div>
+    </a>
+  </div>
+</div>

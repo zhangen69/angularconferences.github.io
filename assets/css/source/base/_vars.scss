@@ -1,0 +1,67 @@
+// Widths
+$wrapper: 1040px;
+$grid-gutter: 30px;
+
+// Fonts
+$font-family-primary: 'Geomanist', 'system';
+$font-family-secondary: 'Merriweather', 'system';
+$font-weight-regular: 300;
+$font-weight-book: normal;
+$font-weight-medium: 500;
+$font-size-base: 62.5%;
+
+$font-size-alpha: 2.6rem;
+$font-size-beta: 2.4rem;
+$font-size-charli: 2.2rem;
+$font-size-gamma: 2rem;
+$font-size-delta: 1.8rem;
+$font-size-foxstrot: 1.6rem;
+$font-size-epsilon: 1.4rem;
+
+// Colours
+$white: #fff;
+$black: #000;
+$slate: #222;
+$cloud: #f6f9fa;
+$night: #26293a;
+
+// Ultimate Angular
+$purple: #59009b;
+$pink: #bc04c7;
+$orange: #f4c150;
+$green: #24b373;
+$lila: #b27ebd;
+$gradient: linear-gradient(145deg, #bc04c7 0%, #59009b 100%);
+$angular: #c3002f;
+$typescript: #4a90e2;
+
+// Shades
+$night-80: rgba($night, 0.8);
+$night-60: rgba($night, 0.6);
+$night-50: rgba($night, 0.5);
+$night-40: rgba($night, 0.4);
+$night-30: rgba($night, 0.3);
+$night-20: rgba($night, 0.2);
+$night-10: rgba($night, 0.1);
+$night-05: rgba($night, 0.05);
+
+$white-80: rgba($white, 0.8);
+$white-70: rgba($white, 0.7);
+$white-60: rgba($white, 0.6);
+$white-40: rgba($white, 0.4);
+$white-20: rgba($white, 0.2);
+$white-10: rgba($white, 0.1);
+
+// Shadows
+$box-shadow: 0 4px 8px rgba($black, 0.1);
+
+// Spacing
+$spacing40: 40px;
+$spacing30: 30px;
+$spacing20: 20px;
+$spacing10: 10px;
+$spacing5: 5px;
+
+// Decoration
+$border-radius: 8px;
+$padding: 30px;

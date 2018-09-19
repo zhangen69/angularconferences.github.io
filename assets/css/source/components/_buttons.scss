@@ -1,0 +1,67 @@
+/* BUTTONS */
+%btn-base {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-book;
+  font-size: $font-size-delta;
+
+  position: relative;
+  display: inline-block;
+  margin: 0;
+
+  border-radius: 50px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.ac-btn {
+  @extend %btn-base;
+
+  // BTN STYLES
+  &--primary {
+    background: $green;
+    color: $white;
+
+    &:hover {
+      background: darken($green, 4%);
+    }
+  }
+
+  &--secondary {
+    background: $gradient;
+    color: $white;
+  }
+
+  // BTN SIZES
+  &--large {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+  }
+
+  &--medium {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 24px;
+  }
+
+  // BTN ICONS
+  &--has-icon {
+    position: relative;
+    padding-right: 64px;
+
+    img {
+      position: absolute;
+      width: 20px;
+      top: 14px;
+      right: 28px;
+      transition: right 0.2s ease;
+    }
+
+    &:hover {
+      img {
+        right: 24px;
+      }
+    }
+  }
+}

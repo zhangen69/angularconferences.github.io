@@ -1,0 +1,56 @@
+%props {
+  height: 70px;
+  border-radius: $border-radius;
+
+  margin: 0 auto;
+
+  @media only screen and (max-width: 560px) {
+    height: 90px;
+  }
+}
+
+.ac-confs {
+  margin-bottom: $spacing40;
+
+  > :first-child > * {
+    @extend %props;
+  }
+
+  &__logo {
+    text-align: center;
+    line-height: 70px;
+
+    @media only screen and (max-width: 560px) {
+      line-height: 90px;
+    }
+
+    img {
+      max-width: 50%;
+      max-height: 100%;
+
+      @media only screen and (max-width: 560px) {
+        max-width: 40%;
+      }
+    }
+
+    &--angularconnect {
+      img {
+        max-width: 74%;
+
+        @media only screen and (max-width: 560px) {
+          max-width: 44%;
+        }
+      }
+    }
+
+    &--ngatlanta {
+      img {
+        max-width: 78%;
+
+        @media only screen and (max-width: 560px) {
+          max-width: 50%;
+        }
+      }
+    }
+  }
+}

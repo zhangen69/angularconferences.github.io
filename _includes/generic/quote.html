@@ -1,0 +1,13 @@
+<div class="quotes__item{% if  include.theme == 'small' %} quotes__item--small{% endif %}">
+  {% if include.brand %}
+  <img class="quotes__item-logo" src="/assets/img/brands/{{ include.brand }}.svg" alt="">
+  {% endif %}
+  <h3 class="quotes__item-quote">{{ include.quote }}</h3>
+  <div class="quotes__author">
+    <img class="quotes__author-img" src="/assets/img/reviews/{{ include.img }}.jpg" alt="">
+    <div>
+      <a target="_blank" href="{{ include.link }}">{{ include.name }}</a>
+      <p>{{ include.title }}</p>
+    </div>
+  </div>
+</div>

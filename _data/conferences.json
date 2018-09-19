@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ngBE",
+    "href": "https://ng-be.org",
+    "img": "ngBe.svg"
+  },
+  {
+    "name": "ngColombia",
+    "href": "https://www.ngcolombia.com/",
+    "img": "ngColombia.svg"
+  },
+  {
+    "name": "AngularConnect",
+    "href": "https://angularconnect.com/",
+    "img": "angularconnect.svg"
+  },
+  {
+    "name": "ngAtlanta",
+    "href": "http://ng-atl.org/",
+    "img": "ngAtl.svg"
+  },
+  {
+    "name": "ngVikings",
+    "href": "https://ngvikings.org/",
+    "img": "ngvikings.svg"
+  },
+  {
+    "name": "ngTalks",
+    "href": "https://ngtalks.io/",
+    "img": "ngtalks.svg"
+  },
+  {
+    "name": "ngConf",
+    "href": "https://www.ng-conf.org/",
+    "img": "ngconf.png"
+  },
+  {
+    "name": "ngPoland",
+    "href": "http://ng-poland.pl/",
+    "img": "ngpoland.svg"
+  }
+]
