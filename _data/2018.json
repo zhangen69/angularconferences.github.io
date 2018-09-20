@@ -38,6 +38,21 @@
         "web": "https://www.ngcolombia.com/",
         "twitter": "yuxiglobal"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "PL",
+        "location": "Wroclaw",
+        "title": "Angular Wroclaw",
+        "date": "27",
+        "logo": "angularwroclaw.png",
+        "type": "meetup",
+        "desc": "Join us and meet Angular enthusiasts from Wroclaw! No matter if you're just starting your Angular journey, or you have already delivered many projects. Come, share your experience, enjoy the talks, meet like-minded developers. Everyone is invited!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/",
+        "twitter": "AngularWroclaw"
+      }
     }
   ],
   "October": [
@@ -55,6 +70,21 @@
       "links": {
         "web": "http://angularmix.com/",
         "twitter": "angularmix"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "PL",
+        "location": "Wroclaw",
+        "title": "Angular Wroclaw",
+        "date": "25",
+        "logo": "angularwroclaw.png",
+        "type": "meetup",
+        "desc": "Join us and meet Angular enthusiasts from Wroclaw! No matter if you're just starting your Angular journey, or you have already delivered many projects. Come, share your experience, enjoy the talks, meet like-minded developers. Everyone is invited!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/",
+        "twitter": "AngularWroclaw"
       }
     }
   ],
@@ -102,6 +132,21 @@
       "links": {
         "web": "https://2018.angular.tw/",
         "twitter": "ngTaiwan"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "PL",
+        "location": "Wroclaw",
+        "title": "Angular Wroclaw",
+        "date": "29",
+        "logo": "angularwroclaw.png",
+        "type": "meetup",
+        "desc": "Join us and meet Angular enthusiasts from Wroclaw! No matter if you're just starting your Angular journey, or you have already delivered many projects. Come, share your experience, enjoy the talks, meet like-minded developers. Everyone is invited!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/",
+        "twitter": "AngularWroclaw"
       }
     }
   ],
