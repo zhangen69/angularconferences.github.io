@@ -117,23 +117,7 @@
       }
     }
   ],
-  "August": [
-    {
-      "metadata": {
-        "country_code": "BO",
-        "location": "Cochabamba",
-        "title": "ngBolivia",
-        "date": "03",
-        "logo": "ngbolivia.svg",
-        "type": "conference",
-        "desc": "The biggest Angular conference in Bolivia carefully crafted for you and by Angular community! All about Angular and Web from the world experts."
-      },
-      "links": {
-        "web": "https://ng-bolivia.org/",
-        "twitter": "angularBolivia"
-      }
-    }
-  ],
+  "August": [],
   "September": [],
   "October": [],
   "November": [],
