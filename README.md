@@ -37,7 +37,7 @@ Use the guide below to add your own event to the correct month inside the above 
     // Date of Event
     "date": "06-07",
     // Your event logo (for best results use SVG)
-    "logo": "ngBe.svg",
+    "logo": "ngbe.svg",
     // The type of event, "conference" or "meetup"
     "type": "conference",
     // A *short* description of your event, max 400 characters.
