@@ -38,5 +38,10 @@
     "name": "ngPoland",
     "href": "http://ng-poland.pl/",
     "img": "ngpoland.svg"
+  },
+  {
+    "name": "ngHighCountry",
+    "href": "http://www.highcountryangular.com/",
+    "img": "nghighcountry.svg"
   }
 ]
