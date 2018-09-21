@@ -6,7 +6,23 @@
   "May": [],
   "June": [],
   "July": [],
-  "August": [],
+  "August": [
+    {
+      "metadata": {
+        "country_code": "BO",
+        "location": "Cochabamba",
+        "title": "ngBolivia",
+        "date": "03-04",
+        "logo": "ngbolivia.svg",
+        "type": "conference",
+        "desc": "The biggest Angular conference in Bolivia carefully crafted for you and by Angular community! All about Angular and Web from the world experts."
+      },
+      "links": {
+        "web": "https://ng-bolivia.org/",
+        "twitter": "angularBolivia"
+      }
+    }
+  ],
   "September": [
     {
       "metadata": {
@@ -23,7 +39,7 @@
         "twitter": "yuxiglobal"
       }
     },
-    {
+      {
       "metadata": {
         "country_code": "US",
         "location": "Boone",
@@ -37,6 +53,21 @@
         "web": "http://www.highcountryangular.com/",
         "youtube": "https://www.youtube.com/watch?v=jCiloICINIQ",
         "twitter": "ngHighCountry"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "PL",
+        "location": "Wroclaw",
+        "title": "Angular Wroclaw",
+        "date": "27",
+        "logo": "angularwroclaw.png",
+        "type": "meetup",
+        "desc": "Join us and meet Angular enthusiasts from Wroclaw! No matter if you're just starting your Angular journey, or you have already delivered many projects. Come, share your experience, enjoy the talks, meet like-minded developers. Everyone is invited!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/events/252915379/",
+        "twitter": "AngularWroclaw"
       }
     }
   ],
@@ -72,6 +103,21 @@
         "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
         "meetup": "https://www.meetup.com/High-Country-Angular/",
         "twitter": "ngHighCountry"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "PL",
+        "location": "Wroclaw",
+        "title": "Angular Wroclaw",
+        "date": "25",
+        "logo": "angularwroclaw.png",
+        "type": "meetup",
+        "desc": "Join us and meet Angular enthusiasts from Wroclaw! No matter if you're just starting your Angular journey, or you have already delivered many projects. Come, share your experience, enjoy the talks, meet like-minded developers. Everyone is invited!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/events/252915433/",
+        "twitter": "AngularWroclaw"
       }
     }
   ],
@@ -136,6 +182,21 @@
         "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
         "meetup": "https://www.meetup.com/High-Country-Angular/",
         "twitter": "ngHighCountry"
+       }
+    },
+    {
+      "metadata": {
+        "country_code": "PL",
+        "location": "Wroclaw",
+        "title": "Angular Wroclaw",
+        "date": "29",
+        "logo": "angularwroclaw.png",
+        "type": "meetup",
+        "desc": "Join us and meet Angular enthusiasts from Wroclaw! No matter if you're just starting your Angular journey, or you have already delivered many projects. Come, share your experience, enjoy the talks, meet like-minded developers. Everyone is invited!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/events/252915496/",
+        "twitter": "AngularWroclaw"
       }
     }
   ],
