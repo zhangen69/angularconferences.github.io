@@ -119,6 +119,23 @@
         "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/events/252915433/",
         "twitter": "AngularWroclaw"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Houston",
+        "title": "ngHouston",
+        "date": "17",
+        "logo": "nghouston.svg",
+        "type": "meetup",
+        "desc": "A group of developers interested in meeting to discuss Angular and related topics. All skill levels welcome!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/ngHouston/events/wbghxpyxnbwb/",
+        "youtube": "https://www.youtube.com/channel/UC3cfVUpgrO5TK6cvH04ieSQ",
+        "meetup": "https://www.meetup.com/ngHouston/events/wbghxpyxnbwb/",
+        "twitter": "ng_Houston"
+      }
     }
   ],
   "November": [
@@ -198,6 +215,23 @@
         "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/events/252915496/",
         "twitter": "AngularWroclaw"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Houston",
+        "title": "ngHouston",
+        "date": "21",
+        "logo": "nghouston.svg",
+        "type": "meetup",
+        "desc": "A group of developers interested in meeting to discuss Angular and related topics. All skill levels welcome!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/ngHouston/events/wbghxpyxpbcc/",
+        "youtube": "https://www.youtube.com/channel/UC3cfVUpgrO5TK6cvH04ieSQ",
+        "meetup": "https://www.meetup.com/ngHouston/events/wbghxpyxpbcc/",
+        "twitter": "ng_Houston"
+      }
     }
   ],
   "December": [
@@ -231,6 +265,23 @@
         "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
         "meetup": "https://www.meetup.com/High-Country-Angular/",
         "twitter": "ngHighCountry"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Houston",
+        "title": "ngHouston",
+        "date": "19",
+        "logo": "nghouston.svg",
+        "type": "meetup",
+        "desc": "A group of developers interested in meeting to discuss Angular and related topics. All skill levels welcome!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/ngHouston/events/wbghxpyxqbzb/",
+        "youtube": "https://www.youtube.com/channel/UC3cfVUpgrO5TK6cvH04ieSQ",
+        "meetup": "https://www.meetup.com/ngHouston/events/wbghxpyxqbzb/",
+        "twitter": "ng_Houston"
       }
     }
   ]

@@ -43,5 +43,10 @@
     "name": "ngHighCountry",
     "href": "http://www.highcountryangular.com/",
     "img": "nghighcountry.svg"
+  },
+  {
+    "name": "ngHouston",
+    "href": "https://www.meetup.com/ngHouston/",
+    "img": "nghouston.svg"
   }
 ]
