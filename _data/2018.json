@@ -39,6 +39,22 @@
         "twitter": "yuxiglobal"
       }
     },
+      {
+      "metadata": {
+        "country_code": "US",
+        "location": "Boone",
+        "title": "High Country Angular",
+        "date": "20",
+        "logo": "nghighcountry.svg",
+        "type": "meetup",
+        "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
+      },
+      "links": {
+        "web": "http://www.highcountryangular.com/",
+        "youtube": "https://www.youtube.com/watch?v=jCiloICINIQ",
+        "twitter": "ngHighCountry"
+      }
+    },
     {
       "metadata": {
         "country_code": "PL",
@@ -70,6 +86,23 @@
       "links": {
         "web": "http://angularmix.com/",
         "twitter": "angularmix"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Boone",
+        "title": "High Country Angular",
+        "date": "15",
+        "logo": "nghighcountry.svg",
+        "type": "meetup",
+        "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
+      },
+      "links": {
+        "web": "http://www.highcountryangular.com/",
+        "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
+        "meetup": "https://www.meetup.com/High-Country-Angular/",
+        "twitter": "ngHighCountry"
       }
     },
     {
@@ -136,6 +169,23 @@
     },
     {
       "metadata": {
+        "country_code": "US",
+        "location": "Boone",
+        "title": "High Country Angular",
+        "date": "19",
+        "logo": "nghighcountry.svg",
+        "type": "meetup",
+        "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
+      },
+      "links": {
+        "web": "http://www.highcountryangular.com/",
+        "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
+        "meetup": "https://www.meetup.com/High-Country-Angular/",
+        "twitter": "ngHighCountry"
+       }
+    },
+    {
+      "metadata": {
         "country_code": "PL",
         "location": "Wroclaw",
         "title": "Angular Wroclaw",
@@ -164,6 +214,23 @@
       "links": {
         "web": "https://ng-be.org",
         "twitter": "ngBE"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Boone",
+        "title": "High Country Angular",
+        "date": "17",
+        "logo": "nghighcountry.svg",
+        "type": "meetup",
+        "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
+      },
+      "links": {
+        "web": "http://www.highcountryangular.com/",
+        "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
+        "meetup": "https://www.meetup.com/High-Country-Angular/",
+        "twitter": "ngHighCountry"
       }
     }
   ]
