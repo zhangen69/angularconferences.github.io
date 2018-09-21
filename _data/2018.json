@@ -205,7 +205,7 @@
       "metadata": {
         "country_code": "BE",
         "location": "Ghent",
-        "title": "ngBE",
+        "title": "NG-BE",
         "date": "06-07",
         "logo": "ngBe.svg",
         "type": "conference",
@@ -213,7 +213,7 @@
       },
       "links": {
         "web": "https://ng-be.org",
-        "twitter": "ngBE"
+        "twitter": "ngbeconf"
       }
     },
     {
