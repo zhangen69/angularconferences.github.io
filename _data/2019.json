@@ -35,10 +35,10 @@
   ],
   "March": [],
   "April": [
-  {
+    {
       "metadata": {
-        "country_code": "SE",
-        "location": "Stockholm",
+        "country_code": "DK",
+        "location": "",
         "title": "ngVikings",
         "date": "",
         "logo": "ngvikings.svg",
