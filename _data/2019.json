@@ -118,16 +118,13 @@
     }
   ],
   "August": [],
-  "September": [],
-  "October": [],
-  "November": [],
-  "December": [
-    {
+  "September": [
+  {
       "metadata": {
         "country_code": "UA",
-        "location": "Kharkiv",
+        "location": "Kharkov",
         "title": "ngTalks",
-        "date": "08-11",
+        "date": "TBC",
         "logo": "ngtalks.svg",
         "type": "conference",
         "desc": "Join us in a quest of developing a brighter Angular community, attend NgTalks, the first of many conference dedicated to latest and greatest news and insights from the global Angular network, covering best practices, approaches and cutting-edge trends."
@@ -137,6 +134,10 @@
         "twitter": "ngTalks_ua"
       }
     },
+  ],
+  "October": [],
+  "November": [],
+  "December": [
     {
       "metadata": {
         "country_code": "DE",
