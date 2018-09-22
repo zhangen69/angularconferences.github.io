@@ -4,6 +4,12 @@
   <h3 class="ac-year-title">{{ include.year }}</h3>
 </div>
 <div class="ac-conf">
+  <div class="ac-conf-filters">
+    <span>Show:</span>
+    <a href="#" data-visibility="all" class="active">All</a>
+    <a href="#" data-visibility="conference">Conferences</a>
+    <a href="#" data-visibility="meetup">Meetups</a>
+  </div>
   {% for conf in assets %}
     {% if conf[1].size > 0 %}
     <div class="ac-conf-box">

@@ -483,7 +483,7 @@
     {% assign country = "Zimbabwe" %}
 {% endcase %}
 
-<div class="ac-box toggle-modal"{% if item.metadata.type == 'conference' or item.metadata.type == 'meetup' %}data-event-type="{{ item.metadata.type }}"{% endif %}>
+<div class="ac-box toggle-modal active"{% if item.metadata.type == 'conference' or item.metadata.type == 'meetup' %}data-event-type="{{ item.metadata.type }}"{% endif %}>
   <h3 class="ac-box-title">
     {{ item.metadata.title }}
     <span>{% if item.metadata.type == 'conference' or item.metadata.type == 'meetup' %}{{ item.metadata.type }}{% endif %}</span>
