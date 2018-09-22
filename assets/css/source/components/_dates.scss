@@ -19,8 +19,13 @@
   &-filters {
     margin: 20px 0;
     font-size: 14px;
+    span {
+      margin-right: 4px;
+    }
     a {
       color: #8e949e;
+      padding: 0 4px;
+
       &.active {
         color: #24b373;
       }
