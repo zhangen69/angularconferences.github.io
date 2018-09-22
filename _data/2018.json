@@ -39,7 +39,7 @@
         "twitter": "yuxiglobal"
       }
     },
-      {
+    {
       "metadata": {
         "country_code": "US",
         "location": "Boone",
@@ -136,6 +136,22 @@
         "meetup": "https://www.meetup.com/ngHouston/events/wbghxpyxnbwb/",
         "twitter": "ng_Houston"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "ES",
+        "location": "Las Palmas de Gran Canaria",
+        "title": "Angular in Flip Flops",
+        "date": "22-27",
+        "logo": "angularinff.png",
+        "type": "bootcamp",
+        "desc": "Angular in Flip Flops is a knowledge-and-action-packed Angular training course. We spend 7-days in a remote location in stunning Las Palmas in Gran Canaria.  The event is designed to help professional developers to find focus and to move their Angular knowledge to the next level, while having fun (in flip flops)."
+      },
+      "links": {
+        "web": "https://www.codecamps.com/aiff4/",
+        "youtube": "https://www.youtube.com/channel/UCW6i686k6-n7avcwgoWX1XQ",
+        "twitter": "angularinFF"
+      }
     }
   ],
   "November": [
@@ -199,7 +215,7 @@
         "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
         "meetup": "https://www.meetup.com/High-Country-Angular/",
         "twitter": "ngHighCountry"
-       }
+      }
     },
     {
       "metadata": {
