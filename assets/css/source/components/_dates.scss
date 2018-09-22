@@ -16,6 +16,16 @@
 }
 
 .ac-conf {
+  &-filters {
+    margin: 20px 0;
+    font-size: 14px;
+    a {
+      color: #8e949e;
+      &.active {
+        color: #24b373;
+      }
+    }
+  }
   &-box {
     border-top: 1px solid $night-10;
     padding: 30px 0 0;
@@ -37,6 +47,7 @@
 }
 
 .ac-box {
+  display: none;
   position: relative;
   border: 1px solid $night-10;
   border-radius: $border-radius;
@@ -51,6 +62,10 @@
 
   &:hover {
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  }
+
+  &.active {
+    display: block;
   }
 
   &:nth-child(-n + 2) {
