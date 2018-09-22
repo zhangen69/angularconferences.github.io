@@ -20,6 +20,11 @@
     margin: 20px 0;
     font-size: 14px;
     span {
+      margin: 0 4px;
+      color: $night-50;
+    }
+    p {
+      display: inline-block;
       margin-right: 4px;
     }
     a {
