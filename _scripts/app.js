@@ -90,15 +90,17 @@
 
   function bindFilters(item) {
     const filter = item.querySelector('.ac-conf-filters');
+    const VISIBILITY = 'data-visibility';
+    const EVENT_TYPE = 'data-event-type';
 
     filter.addEventListener(
       'click',
       function(event) {
         event.preventDefault();
         const { target } = event;
-        const value = target.getAttribute('data-visibility');
-        const buttons = $$('[data-visibility]', target.parentNode);
-        const confs = $$('[data-event-type]', item);
+        const value = target.getAttribute(`${VISIBILITY}`);
+        const buttons = $$(`[${VISIBILITY}]`, target.parentNode);
+        const confs = $$(`[${EVENT_TYPE}]`, item);
 
         buttons.map(button => apollo.removeClass(button, 'active'));
         apollo.addClass(target, 'active');
@@ -111,7 +113,7 @@
           case 'conference':
           case 'meetup': {
             confs.map(conf => {
-              if (conf.getAttribute('data-event-type') === value) {
+              if (conf.getAttribute(`${EVENT_TYPE}`) === value) {
                 apollo.addClass(conf, 'active');
               } else {
                 apollo.removeClass(conf, 'active');
