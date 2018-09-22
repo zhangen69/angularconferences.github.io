@@ -98,8 +98,13 @@
       function(event) {
         event.preventDefault();
         const { target } = event;
-        const value = target.getAttribute(`${VISIBILITY}`);
-        const buttons = $$(`[${VISIBILITY}]`, target.parentNode);
+
+        if (target.nodeName.toLowerCase() !== 'a') {
+          return;
+        }
+
+        const value = target.getAttribute('href').substring(1);
+        const buttons = $$('a', target.parentNode);
         const confs = $$(`[${EVENT_TYPE}]`, item);
 
         buttons.map(button => apollo.removeClass(button, 'active'));
