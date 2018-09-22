@@ -16,6 +16,30 @@
 }
 
 .ac-conf {
+  &-filters {
+    margin: 20px 0;
+    font-size: 14px;
+    span {
+      margin: 0 4px;
+      color: $night-50;
+    }
+    p {
+      display: inline-block;
+      margin-right: 4px;
+    }
+    a {
+      color: $night-50;
+      padding: 0 4px;
+
+      &:hover {
+        color: $night-80;
+      }
+
+      &.active {
+        color: $green;
+      }
+    }
+  }
   &-box {
     border-top: 1px solid $night-10;
     padding: 30px 0 0;
@@ -33,10 +57,12 @@
     font-size: 14px;
     color: $green;
     line-height: 26px;
+    margin-bottom: 10px;
   }
 }
 
 .ac-box {
+  display: none;
   position: relative;
   border: 1px solid $night-10;
   border-radius: $border-radius;
@@ -53,37 +79,8 @@
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
   }
 
-  &:nth-child(-n + 2) {
-    margin-top: 10px;
-
-    @media only screen and (max-width: 560px) {
-      margin-top: 6px;
-    }
-  }
-
-  &--conference,
-  &--meetup {
-    &:before {
-      content: '';
-      position: absolute;
-      right: 17px;
-      top: 17px;
-      width: 8px;
-      height: 8px;
-      border-radius: 8px;
-    }
-  }
-
-  &--conference {
-    &:before {
-      background: $angular;
-    }
-  }
-
-  &--meetup {
-    &:before {
-      background: $typescript;
-    }
+  &.active {
+    display: block;
   }
 
   &-title {

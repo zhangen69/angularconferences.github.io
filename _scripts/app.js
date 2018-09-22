@@ -88,9 +88,53 @@
 
   const members = $$('.ac-conf');
 
-  function initMembers(thing) {
-    const items = $$('.toggle-modal', thing);
-    const modals = $$('.modal', thing);
+  function bindFilters(item) {
+    const filter = item.querySelector('.ac-conf-filters');
+    const VISIBILITY = 'data-visibility';
+    const EVENT_TYPE = 'data-event-type';
+
+    filter.addEventListener(
+      'click',
+      function(event) {
+        event.preventDefault();
+        const { target } = event;
+
+        if (target.nodeName.toLowerCase() !== 'a') {
+          return;
+        }
+
+        const value = target.getAttribute('href').substring(1);
+        const buttons = $$('a', target.parentNode);
+        const confs = $$(`[${EVENT_TYPE}]`, item);
+
+        buttons.map(button => apollo.removeClass(button, 'active'));
+        apollo.addClass(target, 'active');
+
+        switch (value) {
+          case 'all': {
+            confs.map(conf => apollo.addClass(conf, 'active'));
+            break;
+          }
+          case 'conference':
+          case 'meetup': {
+            confs.map(conf => {
+              if (conf.getAttribute(`${EVENT_TYPE}`) === value) {
+                apollo.addClass(conf, 'active');
+              } else {
+                apollo.removeClass(conf, 'active');
+              }
+            });
+            break;
+          }
+        }
+      },
+      false
+    );
+  }
+
+  function initMembers(item) {
+    const items = $$('.toggle-modal', item);
+    const modals = $$('.modal', item);
     const overlay = document.querySelector('.overlay');
     const main = document.querySelector('.main');
 
@@ -150,5 +194,6 @@
 
   if (members) {
     members.map(initMembers);
+    members.map(bindFilters);
   }
 })(window, document);

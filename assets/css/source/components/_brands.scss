@@ -20,6 +20,12 @@
     text-align: center;
     line-height: 70px;
 
+    &:nth-child(n + 8) {
+      display: none;
+      height: 0;
+      line-height: 0;
+    }
+
     @media only screen and (max-width: 560px) {
       line-height: 90px;
     }
