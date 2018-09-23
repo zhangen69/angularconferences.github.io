@@ -283,6 +283,22 @@
         "meetup": "https://www.meetup.com/ngHouston/events/wbghxpyxqbzb/",
         "twitter": "ng_Houston"
       }
-    }
+    },
+    {
+      "metadata": {
+        "country_code": "MA",
+        "location": "Rabat",
+        "title": "ngMorocco",
+        "date": "1",
+        "logo": "ngMorocco.png",
+        "type": "meetup",
+        "desc": "A group of developers interested in meeting to discuss Angular and related topics. All skill levels welcome!"
+      },
+      "links": {
+        "web": "http://ngmorocco.github.io",
+        "meetup": "http://www.meetup.com/fr-FR/ngMorocco/",
+        "twitter": "ngMorocco"
+      }
+    } 
   ]
 }
