@@ -92,6 +92,21 @@
   "December": [
     {
       "metadata": {
+        "country_code": "US",
+        "location": "Clearwater, Florida",
+        "title": "Angular Summit",
+        "date": "02-05",
+        "logo": "ngsummit.svg",
+        "type": "conference",
+        "desc": "Angular Summit is a conference for developers who use Angular and modern web development tools. AS 2018 is a three-day conference with a full-day optional training offering. Angular Summit is packed with the latest techniques and insights to help you build something great."
+      },
+      "links": {
+        "web": "https://angularsummit.com",
+        "twitter": "nofluff"
+      }
+    },    
+    {
+      "metadata": {
         "country_code": "BE",
         "location": "Ghent",
         "title": "ngBE",
