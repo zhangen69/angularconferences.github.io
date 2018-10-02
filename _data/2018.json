@@ -69,6 +69,21 @@
         "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/events/252915379/",
         "twitter": "AngularWroclaw"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "IN",
+        "location": "Hyderabad",
+        "title": "ngHyderabad",
+        "date": "29",
+        "logo": "ngHyderabad.png",
+        "type": "meetup",
+        "desc": "AngularJS meetup group in Hyderabad, AP, India discussing how to leverage and evolve the 'Superheroic JavaScript MVW Framework'"
+      },
+      "links": {
+        "web": "https://www.meetup.com/nghyderabad/events/254709388/",
+        "twitter": "ngHyderabad"
+      }
     }
   ],
   "October": [
