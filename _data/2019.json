@@ -17,6 +17,21 @@
     }
   ],
   "February": [
+     {
+      "metadata": {
+        "country_code": "NL",
+        "location": "Amsterdam",
+        "title": "NGX Amsterdam",
+        "date": "22",
+        "logo": "blank.svg",
+        "type": "conference",
+        "desc": "NGX Amsterdam. NG-NL reborn. Made by developers for developers."
+      },
+      "links": {
+        "web": "",
+        "twitter": "ngxamsterdam"
+      }
+    },
     {
       "metadata": {
         "country_code": "IN",
