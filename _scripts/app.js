@@ -116,7 +116,6 @@
             break;
           }
           case 'conference':
-          case 'workshop':
           case 'meetup': {
             confs.map(conf => {
               if (conf.getAttribute(`${EVENT_TYPE}`) === value) {

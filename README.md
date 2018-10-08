@@ -10,7 +10,7 @@ Angular Conferences Worldwide
 
 ---
 
-> This repo contains the world's best Angular Conferences, meetups and workshops, if you host an event and would like to be listed please follow the steps below:
+> This repo contains the world's best Angular Conferences and meetups, if you host an event and would like to be listed please follow the steps below:
 
 [Add Your Event](#add-your-event)
 
@@ -40,7 +40,7 @@ Use the guide below to add your own event to the correct month inside the above 
     // Please compress SVG before your PR:
     // https://jakearchibald.github.io/svgomg/
     "logo": "ngbe.svg",
-    // The type of event, "conference", "meetup", or "workshop"
+    // The type of event, "conference" or "meetup"
     "type": "conference",
     // A *short* description of your event, max 400 characters.
     "desc": "NG-BE 2018 is a 2-day event in Ghent, Belgium, that brings together Angular developers and experts from all over the world to share ideas, news and opinions about Angular."
