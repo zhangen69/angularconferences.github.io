@@ -30,7 +30,7 @@
         "location": "Medellin",
         "title": "ngColombia",
         "date": "06-07",
-        "logo": "ngColombia.svg",
+        "logo": "ngcolombia.svg",
         "type": "conference",
         "desc": "ngColombia is the first Angular Conference in Latin America. It gathers a diverse mix of top-notch Angular speakers from countries like: England, Denmark, Greece, the USA, Poland and much more."
       },
@@ -93,7 +93,7 @@
         "location": "Orlando",
         "title": "Angular Mix",
         "date": "10-12",
-        "logo": "ngMix.svg",
+        "logo": "ngmix.svg",
         "month": "10",
         "type": "conference",
         "desc": "The AngularMix conference is all about igniting conversations around Angular and enterprise technologies that make modern browsers shine. Learn directly from the Angular team as well as Angular experts from around the world about an incredibly deep list of topics. AngularMix brings the latest and greatest on progressive web apps and mobility, JavaScript/TypeScript, the Angular CLI, RxJS, AI, IoT, building for production with AOT, visualizing data and much more. "
@@ -223,7 +223,7 @@
         "location": "Taipei City",
         "title": "ngTaiwan",
         "date": "16",
-        "logo": "ngTaiwan.svg",
+        "logo": "ngtaiwan.svg",
         "type": "conference",
         "desc": "Angular Taiwan is an Angular community in Taiwan. We are welcome anyone to join us, and feel free to post and share any articles, courses, videos or any discussion that related to Angular."
       },
@@ -320,7 +320,7 @@
         "location": "Ghent",
         "title": "NG-BE",
         "date": "06-07",
-        "logo": "ngBe.svg",
+        "logo": "ngbe.svg",
         "type": "conference",
         "desc": "NG-BE 2018 is a 2-day event in Ghent, Belgium, that brings together Angular developers and experts from all over the world to share ideas, news and opinions about Angular."
       },
