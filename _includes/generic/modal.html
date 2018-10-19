@@ -493,7 +493,7 @@
       <div>
         <h3 class="modal-person-name">
           {{ item.metadata.title }}
-          <span>{% if item.metadata.type == 'conference' or item.metadata.type == 'workshop' or item.metadata.type == 'meetup' %}{{ item.metadata.type }}{% endif %}</span>
+          <span>{% if item.metadata.type == 'conference' or item.metadata.type == 'meetup' or item.metadata.type == 'workshop' %}{{ item.metadata.type }}{% endif %}</span>
         </h3>
         <p class="modal-person-title">
           {% if item.metadata.date == '' %}
