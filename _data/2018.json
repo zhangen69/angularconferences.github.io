@@ -89,6 +89,36 @@
   "October": [
     {
       "metadata": {
+        "country_code": "DO",
+        "location": "Punta Cana",
+        "title": "Angular Academy",
+        "date": "25",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "This is an exclusive Angular 7 mini Workshop for Caribbean Developers Conference!"
+      },
+      "links": {
+        "web": "https://caribbeandevconf.com/angular-workshop/",
+        "twitter": "AngularAcademy"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "CA",
+        "location": "Toronto",
+        "title": "Angular Academy",
+        "date": "29-30",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Toronto with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
+    },
+    {
+      "metadata": {
         "country_code": "US",
         "location": "Orlando",
         "title": "Angular Mix",
@@ -187,6 +217,21 @@
     }
   ],
   "November": [
+    {
+      "metadata": {
+        "country_code": "CA",
+        "location": "Montreal",
+        "title": "Angular Academy",
+        "date": "05-06",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Montreal with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
+    },
     {
       "metadata": {
         "country_code": "GB",
@@ -299,6 +344,36 @@
     }
   ],
   "December": [
+    {
+      "metadata": {
+        "country_code": "CA",
+        "location": "Vancouver",
+        "title": "Angular Academy",
+        "date": "29-30",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Vancouver with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "CA",
+        "location": "Montreal",
+        "title": "Angular Academy",
+        "date": "13-14",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Montreal with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
+    },
     {
       "metadata": {
         "country_code": "US",
