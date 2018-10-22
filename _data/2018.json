@@ -184,6 +184,22 @@
         "meetup": "https://www.meetup.com/ngHouston/events/wbghxpyxnbwb/",
         "twitter": "ng_Houston"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "TH",
+        "location": "Bangkok",
+        "title": "Angular Thailand",
+        "date": "30",
+        "logo": "angularth.svg",
+        "type": "meetup",
+        "desc": "A group of Angular Enthusiasts in Thailand"
+      },
+      "links": {
+        "web": "https://dev.wi.th/community/rykEnQHP7",
+        "meetup": "https://www.eventpop.me/e/4415",
+        "facebook": "angularth"
+      }
     }
   ],
   "November": [
