@@ -138,7 +138,7 @@
         "country_code": "US",
         "location": "Boone",
         "title": "High Country Angular",
-        "date": "15",
+        "date": "22",
         "logo": "nghighcountry.svg",
         "type": "meetup",
         "desc": "Getting started with Angular CLI - this session will show you how to take full advantage of the easiest way to create and maintain Angular apps by using the Angular CLI and we'll also look at Angular Console, the new GUI for the CLI."
