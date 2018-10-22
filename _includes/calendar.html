@@ -4,15 +4,22 @@
   <h3 class="ac-year-title">{{ include.year }}</h3>
 </div>
 <div class="ac-conf">
+  <div class="ac-conf-filters">
+    <p>Show:</p>
+    <a href="#all" class="active">All</a> <span>&bull;</span>
+    <a href="#conference">Conferences</a> <span>&bull;</span>
+    <a href="#meetup">Meetups</a> <span>&bull;</span>
+    <a href="#workshop">Workshops</a>
+  </div>
   {% for conf in assets %}
     {% if conf[1].size > 0 %}
     <div class="ac-conf-box">
       <h2 class="ac-conf-title">{{ conf[0] }}</h2>
-      <div class="grid-2">
+      <div class="grid-2-special">
         {% for item in conf[1] %}
         {% assign month = conf[0] %}
         {% assign year = include.year %}
-          {% 
+          {%
             include generic/conference.html
             month=month
             year=year

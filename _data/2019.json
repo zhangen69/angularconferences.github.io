@@ -6,7 +6,7 @@
         "location": "Atlanta",
         "title": "ngAtlanta",
         "date": "09-12",
-        "logo": "ngAtl.svg",
+        "logo": "ngatl.svg",
         "type": "conference",
         "desc": "2nd annual Angular conference in Atlanta, GA focused on diversity in technology."
       },
@@ -17,6 +17,21 @@
     }
   ],
   "February": [
+     {
+      "metadata": {
+        "country_code": "NL",
+        "location": "Amsterdam",
+        "title": "NGX Amsterdam",
+        "date": "22",
+        "logo": "blank.svg",
+        "type": "conference",
+        "desc": "NGX Amsterdam. NG-NL reborn. Made by developers for developers."
+      },
+      "links": {
+        "web": "",
+        "twitter": "ngxamsterdam"
+      }
+    },
     {
       "metadata": {
         "country_code": "IN",
@@ -29,16 +44,32 @@
       },
       "links": {
         "web": "http://www.ng-ind.com/",
-        "twitter": "angular_india"
+        "twitter": "geeknineseven" 
       }
     }
   ],
-  "March": [],
-  "April": [
-  {
+  "March": [
+    {
       "metadata": {
-        "country_code": "SE",
-        "location": "Stockholm",
+        "country_code": "NL",
+        "location": "Amsterdam",
+        "title": "Angular NL",
+        "date": "08-03",
+        "logo": "angularnl.png",
+        "type": "conference",
+        "desc": "Angular rises again, for a long time Angular has disappeared from the Tech Community in the Netherlands. As one of the World's most hyped and used frameworks we are proud to announce that Angular will be back in Amsterdam on the 8th of March 2019."
+      },
+      "links": {
+        "web": "https://www.angularnl.com",
+        "twitter": "angularnl"
+      }
+    }
+  ],
+  "April": [
+    {
+      "metadata": {
+        "country_code": "DK",
+        "location": "",
         "title": "ngVikings",
         "date": "",
         "logo": "ngvikings.svg",
@@ -117,33 +148,14 @@
       }
     }
   ],
-  "August": [
-    {
-      "metadata": {
-        "country_code": "BO",
-        "location": "Cochabamba",
-        "title": "ngBolivia",
-        "date": "03",
-        "logo": "ngbolivia.svg",
-        "type": "conference",
-        "desc": "The biggest Angular conference in Bolivia carefully crafted for you and by Angular community! All about Angular and Web from the world experts."
-      },
-      "links": {
-        "web": "https://ng-bolivia.org/",
-        "twitter": "angularBolivia"
-      }
-    }
-  ],
-  "September": [],
-  "October": [],
-  "November": [],
-  "December": [
-    {
+  "August": [],
+  "September": [
+  {
       "metadata": {
         "country_code": "UA",
-        "location": "Jarkiv",
+        "location": "Kharkov",
         "title": "ngTalks",
-        "date": "08-11",
+        "date": "TBC",
         "logo": "ngtalks.svg",
         "type": "conference",
         "desc": "Join us in a quest of developing a brighter Angular community, attend NgTalks, the first of many conference dedicated to latest and greatest news and insights from the global Angular network, covering best practices, approaches and cutting-edge trends."
@@ -153,6 +165,10 @@
         "twitter": "ngTalks_ua"
       }
     },
+  ],
+  "October": [],
+  "November": [],
+  "December": [
     {
       "metadata": {
         "country_code": "DE",

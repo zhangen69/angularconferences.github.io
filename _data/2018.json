@@ -6,7 +6,23 @@
   "May": [],
   "June": [],
   "July": [],
-  "August": [],
+  "August": [
+    {
+      "metadata": {
+        "country_code": "BO",
+        "location": "Cochabamba",
+        "title": "ngBolivia",
+        "date": "03-04",
+        "logo": "ngbolivia.svg",
+        "type": "conference",
+        "desc": "The biggest Angular conference in Bolivia carefully crafted for you and by Angular community! All about Angular and Web from the world experts."
+      },
+      "links": {
+        "web": "https://ng-bolivia.org/",
+        "twitter": "angularBolivia"
+      }
+    }
+  ],
   "September": [
     {
       "metadata": {
@@ -14,7 +30,7 @@
         "location": "Medellin",
         "title": "ngColombia",
         "date": "06-07",
-        "logo": "ngColombia.svg",
+        "logo": "ngcolombia.svg",
         "type": "conference",
         "desc": "ngColombia is the first Angular Conference in Latin America. It gathers a diverse mix of top-notch Angular speakers from countries like: England, Denmark, Greece, the USA, Poland and much more."
       },
@@ -22,16 +38,92 @@
         "web": "https://www.ngcolombia.com/",
         "twitter": "yuxiglobal"
       }
+    },
+      {
+      "metadata": {
+        "country_code": "US",
+        "location": "Boone",
+        "title": "High Country Angular",
+        "date": "20",
+        "logo": "nghighcountry.svg",
+        "type": "meetup",
+        "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
+      },
+      "links": {
+        "web": "http://www.highcountryangular.com/",
+        "youtube": "https://www.youtube.com/watch?v=jCiloICINIQ",
+        "twitter": "ngHighCountry"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "PL",
+        "location": "Wroclaw",
+        "title": "Angular Wroclaw",
+        "date": "27",
+        "logo": "angularwroclaw.png",
+        "type": "meetup",
+        "desc": "Join us and meet Angular enthusiasts from Wroclaw! No matter if you're just starting your Angular journey, or you have already delivered many projects. Come, share your experience, enjoy the talks, meet like-minded developers. Everyone is invited!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/events/252915379/",
+        "twitter": "AngularWroclaw"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "IN",
+        "location": "Hyderabad",
+        "title": "ngHyderabad",
+        "date": "29",
+        "logo": "ngHyderabad.png",
+        "type": "meetup",
+        "desc": "AngularJS meetup group in Hyderabad, AP, India discussing how to leverage and evolve the 'Superheroic JavaScript MVW Framework'"
+      },
+      "links": {
+        "web": "https://www.meetup.com/nghyderabad/events/254709388/",
+        "twitter": "ngHyderabad"
+      }
     }
   ],
   "October": [
+    {
+      "metadata": {
+        "country_code": "DO",
+        "location": "Punta Cana",
+        "title": "Angular Academy",
+        "date": "25",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "This is an exclusive Angular 7 mini Workshop for Caribbean Developers Conference!"
+      },
+      "links": {
+        "web": "https://caribbeandevconf.com/angular-workshop/",
+        "twitter": "AngularAcademy"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "CA",
+        "location": "Toronto",
+        "title": "Angular Academy",
+        "date": "29-30",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Toronto with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
+    },
     {
       "metadata": {
         "country_code": "US",
         "location": "Orlando",
         "title": "Angular Mix",
         "date": "10-12",
-        "logo": "ngMix.svg",
+        "logo": "ngmix.svg",
         "month": "10",
         "type": "conference",
         "desc": "The AngularMix conference is all about igniting conversations around Angular and enterprise technologies that make modern browsers shine. Learn directly from the Angular team as well as Angular experts from around the world about an incredibly deep list of topics. AngularMix brings the latest and greatest on progressive web apps and mobility, JavaScript/TypeScript, the Angular CLI, RxJS, AI, IoT, building for production with AOT, visualizing data and much more. "
@@ -40,9 +132,122 @@
         "web": "http://angularmix.com/",
         "twitter": "angularmix"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Boone",
+        "title": "High Country Angular",
+        "date": "15",
+        "logo": "nghighcountry.svg",
+        "type": "meetup",
+        "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
+      },
+      "links": {
+        "web": "http://www.highcountryangular.com/",
+        "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
+        "meetup": "https://www.meetup.com/High-Country-Angular/",
+        "twitter": "ngHighCountry"
+      }
+    },  
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "St. Louis, MO",
+        "title": "Angular Lunch STL",
+        "date": "17",
+        "logo": "STLAngularLunch.svg",
+        "type": "meetup",
+        "desc": "We meet at lunch time to talk about all things Angular. Usually one Wednesday per month. Come join us for presentations and deep Angular discussion. Lunch will be provided."
+      },
+      "links": {
+        "youtube": "https://www.youtube.com/user/OasisDigitalSoftware",
+        "meetup": "https://www.meetup.com/Angular-Lunch/",
+        "twitter": "Angular_Lunch"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "DE",
+        "location": "Frankfurt",
+        "title": "Angular Frankfurt",
+        "date": "25",
+        "logo": "angularfrankfurt.svg",
+        "type": "meetup",
+        "desc": "Angular Frankfurt is the Angular meetup for the Frankfurt Rhine-Main area! This meetup is all about the Angular framework by Google and all related technologies. Angular Frankfurt focuses on learning about Angular, sharing knowledge and networking with fellow Angular coders."
+      },
+      "links": {
+        "web": "https://www.meetup.com/Angular-Frankfurt/",
+        "facebook": "https://www.facebook.com/angularfrankfurt/",
+        "meetup": "https://www.meetup.com/Angular-Frankfurt/",
+        "twitter": "ngFrankfurt"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "PL",
+        "location": "Wroclaw",
+        "title": "Angular Wroclaw",
+        "date": "25",
+        "logo": "angularwroclaw.png",
+        "type": "meetup",
+        "desc": "Join us and meet Angular enthusiasts from Wroclaw! No matter if you're just starting your Angular journey, or you have already delivered many projects. Come, share your experience, enjoy the talks, meet like-minded developers. Everyone is invited!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/events/252915433/",
+        "twitter": "AngularWroclaw"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Houston",
+        "title": "ngHouston",
+        "date": "17",
+        "logo": "nghouston.svg",
+        "type": "meetup",
+        "desc": "A group of developers interested in meeting to discuss Angular and related topics. All skill levels welcome!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/ngHouston/events/wbghxpyxnbwb/",
+        "youtube": "https://www.youtube.com/channel/UC3cfVUpgrO5TK6cvH04ieSQ",
+        "meetup": "https://www.meetup.com/ngHouston/events/wbghxpyxnbwb/",
+        "twitter": "ng_Houston"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "TH",
+        "location": "Bangkok",
+        "title": "Angular Thailand",
+        "date": "30",
+        "logo": "angularth.svg",
+        "type": "meetup",
+        "desc": "A group of Angular Enthusiasts in Thailand"
+      },
+      "links": {
+        "web": "https://dev.wi.th/community/rykEnQHP7",
+        "meetup": "https://www.eventpop.me/e/4415",
+        "facebook": "angularth"
+      }
     }
   ],
   "November": [
+    {
+      "metadata": {
+        "country_code": "CA",
+        "location": "Montreal",
+        "title": "Angular Academy",
+        "date": "05-06",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Montreal with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
+    },
     {
       "metadata": {
         "country_code": "GB",
@@ -79,31 +284,207 @@
         "location": "Taipei City",
         "title": "ngTaiwan",
         "date": "16",
-        "logo": "ngTaiwan.svg",
+        "logo": "ngtaiwan.svg",
         "type": "conference",
-        "desc": "Angular Taiwan is an Angular community in Taiwan. We are welcome anyone to join us, and feel free to post and share any articles、courses、videos or any discussion that related to Angular."
+        "desc": "Angular Taiwan is an Angular community in Taiwan. We are welcome anyone to join us, and feel free to post and share any articles, courses, videos or any discussion that related to Angular."
       },
       "links": {
         "web": "https://2018.angular.tw/",
         "twitter": "ngTaiwan"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Boone",
+        "title": "High Country Angular",
+        "date": "19",
+        "logo": "nghighcountry.svg",
+        "type": "meetup",
+        "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
+      },
+      "links": {
+        "web": "http://www.highcountryangular.com/",
+        "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
+        "meetup": "https://www.meetup.com/High-Country-Angular/",
+        "twitter": "ngHighCountry"
+       }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "St. Louis, MO",
+        "title": "Angular Lunch STL",
+        "date": "21",
+        "logo": "STLAngularLunch.svg",
+        "type": "meetup",
+        "desc": "We meet at lunch time to talk about all things Angular. Usually one Wednesday per month. Come join us for presentations and deep Angular discussion. Lunch will be provided."
+      },
+      "links": {
+        "youtube": "https://www.youtube.com/user/OasisDigitalSoftware",
+        "meetup": "https://www.meetup.com/Angular-Lunch/",
+        "twitter": "Angular_Lunch"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "PL",
+        "location": "Wroclaw",
+        "title": "Angular Wroclaw",
+        "date": "29",
+        "logo": "angularwroclaw.png",
+        "type": "meetup",
+        "desc": "Join us and meet Angular enthusiasts from Wroclaw! No matter if you're just starting your Angular journey, or you have already delivered many projects. Come, share your experience, enjoy the talks, meet like-minded developers. Everyone is invited!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/events/252915496/",
+        "twitter": "AngularWroclaw"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Houston",
+        "title": "ngHouston",
+        "date": "21",
+        "logo": "nghouston.svg",
+        "type": "meetup",
+        "desc": "A group of developers interested in meeting to discuss Angular and related topics. All skill levels welcome!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/ngHouston/events/wbghxpyxpbcc/",
+        "youtube": "https://www.youtube.com/channel/UC3cfVUpgrO5TK6cvH04ieSQ",
+        "meetup": "https://www.meetup.com/ngHouston/events/wbghxpyxpbcc/",
+        "twitter": "ng_Houston"
       }
     }
   ],
   "December": [
     {
       "metadata": {
+        "country_code": "CA",
+        "location": "Vancouver",
+        "title": "Angular Academy",
+        "date": "29-30",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Vancouver with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "CA",
+        "location": "Montreal",
+        "title": "Angular Academy",
+        "date": "13-14",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Montreal with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Clearwater, Florida",
+        "title": "Angular Summit",
+        "date": "02-05",
+        "logo": "ngsummit.svg",
+        "type": "conference",
+        "desc": "Angular Summit is a conference for developers who use Angular and modern web development tools. AS 2018 is a three-day conference with a full-day optional training offering. Angular Summit is packed with the latest techniques and insights to help you build something great."
+      },
+      "links": {
+        "web": "https://angularsummit.com",
+        "twitter": "nofluff"
+      }
+    },    
+    {
+      "metadata": {
         "country_code": "BE",
         "location": "Ghent",
-        "title": "ngBE",
+        "title": "NG-BE",
         "date": "06-07",
-        "logo": "ngBe.svg",
+        "logo": "ngbe.svg",
         "type": "conference",
         "desc": "NG-BE 2018 is a 2-day event in Ghent, Belgium, that brings together Angular developers and experts from all over the world to share ideas, news and opinions about Angular."
       },
       "links": {
         "web": "https://ng-be.org",
-        "twitter": "ngBE"
+        "twitter": "ngbeconf"
       }
-    }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Boone",
+        "title": "High Country Angular",
+        "date": "17",
+        "logo": "nghighcountry.svg",
+        "type": "meetup",
+        "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
+      },
+      "links": {
+        "web": "http://www.highcountryangular.com/",
+        "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
+        "meetup": "https://www.meetup.com/High-Country-Angular/",
+        "twitter": "ngHighCountry"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "St. Louis, MO",
+        "title": "Angular Lunch STL",
+        "date": "19",
+        "logo": "STLAngularLunch.svg",
+        "type": "meetup",
+        "desc": "We meet at lunch time to talk about all things Angular. Usually one Wednesday per month. Come join us for presentations and deep Angular discussion. Lunch will be provided."
+      },
+      "links": {
+        "youtube": "https://www.youtube.com/user/OasisDigitalSoftware",
+        "meetup": "https://www.meetup.com/Angular-Lunch/",
+        "twitter": "Angular_Lunch"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "US",
+        "location": "Houston",
+        "title": "ngHouston",
+        "date": "19",
+        "logo": "nghouston.svg",
+        "type": "meetup",
+        "desc": "A group of developers interested in meeting to discuss Angular and related topics. All skill levels welcome!"
+      },
+      "links": {
+        "web": "https://www.meetup.com/ngHouston/events/wbghxpyxqbzb/",
+        "youtube": "https://www.youtube.com/channel/UC3cfVUpgrO5TK6cvH04ieSQ",
+        "meetup": "https://www.meetup.com/ngHouston/events/wbghxpyxqbzb/",
+        "twitter": "ng_Houston"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "MA",
+        "location": "Rabat",
+        "title": "ngMorocco",
+        "date": "1",
+        "logo": "ngMorocco.png",
+        "type": "meetup",
+        "desc": "A group of developers interested in meeting to discuss Angular and related topics. All skill levels welcome!"
+      },
+      "links": {
+        "web": "http://ngmorocco.github.io",
+        "meetup": "http://www.meetup.com/fr-FR/ngMorocco/",
+        "twitter": "ngMorocco"
+      }
+    } 
   ]
 }

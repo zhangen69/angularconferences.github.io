@@ -483,10 +483,10 @@
     {% assign country = "Zimbabwe" %}
 {% endcase %}
 
-<div class="ac-box toggle-modal"{% if item.metadata.type == 'conference' or item.metadata.type == 'meetup' %}data-event-type="{{ item.metadata.type }}"{% endif %}>
+<div class="ac-box toggle-modal active"{% if item.metadata.type == 'conference' or item.metadata.type == 'meetup' or item.metadata.type == 'workshop' %}data-event-type="{{ item.metadata.type }}"{% endif %}>
   <h3 class="ac-box-title">
     {{ item.metadata.title }}
-    <span>{% if item.metadata.type == 'conference' or item.metadata.type == 'meetup' %}{{ item.metadata.type }}{% endif %}</span>
+    <span>{% if item.metadata.type == 'conference' or item.metadata.type == 'workshop' or item.metadata.type == 'meetup' %}{{ item.metadata.type }}{% endif %}</span>
   </h3>
   <div class="ac-box-date">
     <p>
@@ -498,7 +498,7 @@
       <span>&bull;</span>
       <img class="ac-box-flag" src="/assets/img/flags/{{ item.metadata.country_code | downcase }}.svg">
       {% if item.metadata.location and item.metadata.location != '' %}
-        {{ item.metadata.location }}, 
+        {{ item.metadata.location }},
       {% endif %}
       {{ country }}
     </p>
