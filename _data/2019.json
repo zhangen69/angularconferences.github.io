@@ -120,8 +120,8 @@
         "country_code": "ES",
         "location": "Madrid",
         "title": "ngSpain",
-        "date": "",
-        "logo": "blank.svg",
+        "date": "28-30",
+        "logo": "ngSpain.svg",
         "type": "conference",
         "desc": "ngSpain is the only Angular Conference in Spain. 2019 will be it's first eddition and will be held in the capital, Madrid. It is an event run by the community from the community, with organisers from all over Europe belonging to the Angular community."
       },
