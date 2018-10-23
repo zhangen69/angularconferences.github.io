@@ -39,7 +39,7 @@
         "twitter": "yuxiglobal"
       }
     },
-      {
+    {
       "metadata": {
         "country_code": "US",
         "location": "Boone",
@@ -138,10 +138,10 @@
         "country_code": "US",
         "location": "Boone",
         "title": "High Country Angular",
-        "date": "15",
+        "date": "22",
         "logo": "nghighcountry.svg",
         "type": "meetup",
-        "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
+        "desc": "Getting started with Angular CLI - this session will show you how to take full advantage of the easiest way to create and maintain Angular apps by using the Angular CLI and we'll also look at Angular Console, the new GUI for the CLI."
       },
       "links": {
         "web": "http://www.highcountryangular.com/",
@@ -149,7 +149,7 @@
         "meetup": "https://www.meetup.com/High-Country-Angular/",
         "twitter": "ngHighCountry"
       }
-    },  
+    },
     {
       "metadata": {
         "country_code": "US",
@@ -301,14 +301,14 @@
         "date": "19",
         "logo": "nghighcountry.svg",
         "type": "meetup",
-        "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
+        "desc": "Typescript - the JavaScript that scales. We'll be taking a dive into the superset of JS used by many Angular developers."
       },
       "links": {
         "web": "http://www.highcountryangular.com/",
         "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
         "meetup": "https://www.meetup.com/High-Country-Angular/",
         "twitter": "ngHighCountry"
-       }
+      }
     },
     {
       "metadata": {
@@ -404,7 +404,7 @@
         "web": "https://angularsummit.com",
         "twitter": "nofluff"
       }
-    },    
+    },
     {
       "metadata": {
         "country_code": "BE",
@@ -425,7 +425,7 @@
         "country_code": "US",
         "location": "Boone",
         "title": "High Country Angular",
-        "date": "17",
+        "date": "20",
         "logo": "nghighcountry.svg",
         "type": "meetup",
         "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
@@ -485,6 +485,6 @@
         "meetup": "http://www.meetup.com/fr-FR/ngMorocco/",
         "twitter": "ngMorocco"
       }
-    } 
+    }
   ]
 }
