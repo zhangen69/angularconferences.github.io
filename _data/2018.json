@@ -230,6 +230,22 @@
         "meetup": "https://www.eventpop.me/e/4415",
         "facebook": "angularth"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "DK",
+        "location": "Aarhus",
+        "title": "ngAarhus",
+        "date": "30",
+        "logo": "ngaarhus.svg",
+        "type": "meetup",
+        "desc": "Meetup group for Angular Developers in the (greater) Aarhus-area."
+      },
+      "links": {
+        "web": "https://www.facebook.com/groups/ngAarhus/",
+        "meetup": "https://www.meetup.com/ngAarhus/",
+        "twitter": "ngaarhus"
+      }
     }
   ],
   "November": [
