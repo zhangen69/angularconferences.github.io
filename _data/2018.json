@@ -301,7 +301,7 @@
         "date": "19",
         "logo": "nghighcountry.svg",
         "type": "meetup",
-        "desc": "Typescript - the JavaScript that scales. We'll be taking a dive into the superset of JS used by many Angular developers."
+        "desc": "TypeScript with Trevor - Gain an understanding of TypeScript as Trevor walks you through an introduction to the superset of JavaScript. He'll start out by describing TypeScript's relationship with JavaScript and then introduce some fundamental concepts and use them to build a basic app. We'll also take a look at how TypeScript plays a part in the Angular framework."
       },
       "links": {
         "web": "http://www.highcountryangular.com/",
@@ -418,23 +418,6 @@
       "links": {
         "web": "https://ng-be.org",
         "twitter": "ngbeconf"
-      }
-    },
-    {
-      "metadata": {
-        "country_code": "US",
-        "location": "Boone",
-        "title": "High Country Angular",
-        "date": "20",
-        "logo": "nghighcountry.svg",
-        "type": "meetup",
-        "desc": "High Country Angular is a group of tech enthusiasts, web designers, software developers and engineers, gathering together on a regular basis to share knowledge, ideas, and lessons learned in working with the Angular framework. We are working hard to create a culture of honor where questions big and small from beginners to experts are treated with the same respect."
-      },
-      "links": {
-        "web": "http://www.highcountryangular.com/",
-        "youtube": "https://www.youtube.com/channel/UCHN0UT6xV5HGEvK7l2tTapw",
-        "meetup": "https://www.meetup.com/High-Country-Angular/",
-        "twitter": "ngHighCountry"
       }
     },
     {
