@@ -6,6 +6,14 @@
   padding: 0 10px;
 
   position: relative;
+
+  @media only screen and (max-width: 1040px) {
+    padding: 0 $spacing40;
+  }
+
+  @media only screen and (max-width: 520px) {
+    padding: 0 $spacing20;
+  }
 }
 
 .u-clearfix,
