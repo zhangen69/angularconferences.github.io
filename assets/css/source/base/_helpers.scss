@@ -24,12 +24,14 @@
 .u-boxed,
 %u-boxed {
   background: $white;
+  background-clip: padding-box;
+  border: $border;
   box-shadow: $box-shadow;
-  border-radius: $border-radius;
   padding: $spacing30;
+  border-radius: 15px;
 
   @media only screen and (max-width: 560px) {
-    padding: $spacing30;
+    padding: $spacing20;
   }
 
   &--small {
@@ -62,6 +64,10 @@
   }
 }
 
+.u-text-center {
+  text-align: center;
+}
+
 .u-push40 {
   margin-top: 40px;
 }
@@ -71,120 +77,250 @@
 }
 
 .u-section {
-  padding-top: 160px;
-  position: relative;
+  padding: 180px 0 0;
 
-  @media only screen and (max-width: 860px) {
-    padding-top: 120px;
+  &-row {
+    @include z-index(relative, 5);
+    margin-top: 80px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &--border {
+      border-top: 1px solid $slate-10;
+      padding-top: 80px;
+    }
+
+    &--small {
+      margin-top: 60px;
+    }
+
+    &--large {
+      margin-top: 120px;
+    }
+
+    &--zindex {
+      z-index: 10;
+    }
   }
 
-  &--white {
-    background: $white;
+  // layout
+  &--equal {
+    padding: 180px 0;
   }
 
-  &--purple {
-    background: $gradient;
+  &--large {
+    padding: 340px 0 180px;
+  }
+
+  &--small {
+    padding: 120px 0 0;
+  }
+
+  &--reviews {
+    padding-top: 160px;
+  }
+
+  // decoration
+  &--grey {
+    background: $cloud;
+
+    .uc-affiliate & {
+      margin-top: 180px;
+    }
+  }
+
+  &--coloured {
+    background: linear-gradient(-45deg, $honey -45%, $passion 100%);
+
+    .ie9 & {
+      background: rgba($passion, 0.9);
+    }
+  }
+
+  &--rounded {
+    margin: 0 -140px;
+
+    &-top {
+      border-top-left-radius: 50% 60px;
+      border-top-right-radius: 50% 60px;
+    }
+
+    &-bottom {
+      border-bottom-left-radius: 50% 60px;
+      border-bottom-right-radius: 50% 60px;
+    }
+
+    &-top-bottom {
+      border-top-left-radius: 50% 60px;
+      border-top-right-radius: 50% 60px;
+      border-bottom-left-radius: 50% 60px;
+      border-bottom-right-radius: 50% 60px;
+    }
   }
 
   &--clean {
     padding: 0;
   }
+}
 
-  &--inhale {
-    margin-top: -100px;
-  }
+/* Mobile Portrait and Landscape */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .u-section {
+    padding: 120px 0 0;
 
-  &--levitate {
-    z-index: 5;
-  }
-
-  &--edge {
-    padding-top: 260px;
-
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 75px;
-      width: 100%;
-      background: url('/assets/img/homepage/edge.svg') center center no-repeat;
-      background-size: cover;
-    }
-  }
-
-  &--edge-reversed {
-    .course & {
-      position: relative;
+    &--brands {
+      padding: 60px 0 0;
     }
 
-    &:before {
-      content: '';
-      position: absolute;
-      top: -75px;
-      left: 0;
-      height: 75px;
-      width: 100%;
-      background: url('/assets/img/homepage/edge-reversed.svg') center center
-        no-repeat;
-      background-size: cover;
-    }
+    &-row {
+      margin-top: 50px;
 
-    &:first-child {
-      &:before {
-        top: 25px;
+      &:first-child {
+        margin-top: 0;
+      }
 
-        .ua-affiliates & {
-          top: -75px;
-        }
+      &--border {
+        padding-top: 50px;
       }
     }
-  }
 
-  &--edge-reversed-white {
-    &:before {
-      content: '';
-      position: absolute;
-      top: -75px;
-      left: 0;
-      height: 75px;
-      width: 100%;
-      background: url('/assets/img/homepage/edge-reversed-white.svg') center
-        center no-repeat;
-      background-size: cover;
+    // layout
+    &--equal {
+      padding: 120px 0;
+    }
+
+    &--large {
+      padding: 120px 0 0;
+    }
+
+    &--small {
+      padding: 120px 0 120px;
+    }
+
+    &--reviews {
+      // display: none;
+    }
+
+    &--rounded {
+      margin: 0;
+      padding: 0;
+
+      &-top {
+        border-top-left-radius: 50% 10px;
+        border-top-right-radius: 50% 10px;
+      }
+
+      &-bottom {
+        border-bottom-left-radius: 50% 10px;
+        border-bottom-right-radius: 50% 10px;
+      }
+
+      &-top-bottom {
+        border-top-left-radius: 50% 10px;
+        border-top-right-radius: 50% 10px;
+        border-bottom-left-radius: 50% 10px;
+        border-bottom-right-radius: 50% 10px;
+      }
+    }
+
+    &--coloured {
+      background: linear-gradient(-36deg, $honey -12%, $passion 120%);
+
+      &:before {
+        display: none;
+      }
+    }
+
+    &--clean {
+      padding: 0;
     }
   }
+}
 
-  &--both {
-    padding: 140px 0;
+/* Tablet Portrait and Landscape */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .u-section {
+    padding: 140px 0 0;
 
-    @media only screen and (max-width: 860px) {
-      padding: 70px 0;
+    &-row {
+      margin-top: 80px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    // layout
+    &--equal {
+      padding: 140px 0;
+    }
+
+    &--large {
+      padding: 220px 0 80px;
+    }
+
+    &--small {
+      padding: 100px 0;
+    }
+
+    &--rounded {
+      margin: 0 -40px;
+      padding: 0;
+
+      &-top {
+        border-top-left-radius: 50% 20px;
+        border-top-right-radius: 50% 20px;
+      }
+
+      &-bottom {
+        border-bottom-left-radius: 50% 20px;
+        border-bottom-right-radius: 50% 20px;
+      }
+
+      &-top-bottom {
+        border-top-left-radius: 50% 20px;
+        border-top-right-radius: 50% 20px;
+        border-bottom-left-radius: 50% 20px;
+        border-bottom-right-radius: 50% 20px;
+      }
+    }
+
+    &--clean {
+      padding: 0;
     }
   }
+}
 
-  &--both-large {
-    padding: 260px 0 160px;
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .u-section {
+    padding: 120px 0 0;
 
-    @media only screen and (max-width: 860px) {
-      padding: 220px 0 100px;
+    &-row {
+      margin-top: 60px;
+
+      &:first-child {
+        margin-top: 0;
+      }
     }
-  }
 
-  &--reduced {
-    padding-top: 120px;
-
-    @media only screen and (max-width: 860px) {
-      padding-top: 60px;
+    // layout
+    &--equal {
+      padding: 120px 0;
     }
-  }
 
-  &--small {
-    padding-top: 80px;
-  }
+    &--large {
+      padding: 120px 0 0;
+    }
 
-  &--no-top {
-    padding-top: 0 !important;
-    margin-top: -40px;
+    &--rounded {
+      padding: 0;
+    }
+
+    &--clean {
+      padding: 0;
+    }
   }
 }

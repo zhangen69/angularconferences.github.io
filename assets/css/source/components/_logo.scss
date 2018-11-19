@@ -1,0 +1,89 @@
+.ac-logo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: relative;
+  z-index: 3;
+
+  .ac-footer & {
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-text {
+    position: absolute;
+    text-indent: -9999px;
+    left: -9999px;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  &-pre {
+    color: $slate-60;
+    font-size: 12px;
+    margin-bottom: $spacing10;
+    font-weight: $font-weight-book;
+  }
+
+  &-img {
+    width: 112px;
+
+    .ie9 & {
+      opacity: 1;
+    }
+
+    &--mobile {
+      display: none;
+    }
+  }
+}
+
+/* Mobile Portrait and Landscape */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .ac-logo {
+    justify-content: center;
+    align-items: center;
+    
+    .sticky & {
+      line-height: 32px;
+    }
+
+    &-img {
+      width: 100px;
+      display: none;
+
+      .ac-footer &,
+      .modal-ua & {
+        display: block;
+        margin: auto;
+      }
+
+      &--mobile {
+        display: block;
+
+        .ac-footer &,
+        .modal-ua & {
+          display: none;
+          margin: auto;
+        }
+      }
+    }
+
+    &-pre {
+      color: $white;
+
+      .ac-footer & {
+        color: $slate-60;
+      }
+    }
+  }
+}
+
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .ac-logo {
+    &-img {
+      width: 100px;
+    }
+  }
+}

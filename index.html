@@ -1,7 +1,205 @@
 ---
 layout: default
 ---
+<section class="ac-hero" id="hero">
+  {% include generic/header.html %}
+  <div class="u-wrapper">
+    <div class="ac-hero-content">
+      <h1 class="ac-hero-title">Angular Conferences Worldwide.</h1>
+      <p class="ac-hero-subtitle">Calendar for the Angular community events happening across the globe.</p>
+    </div>
+  </div>
 
-{% include conferences.html %}
-{% include newsletter.html %}
-{% include learning.html %}
+  <div class="ac-hero-graphic"></div>
+</section>
+
+<section class="u-section">
+  <div class="u-wrapper">
+    <div class="ac-confs">
+      <div class="grid-7">
+        {% for item in site.data.conferences %}
+          {% assign class = item.name | downcase %}
+          <a class="ac-confs__logo ac-confs__logo--{{ class }}" href="{{ item.href }}" target="_blank">
+            <img src="/assets/img/confs/{{ item.img }}" alt="{{ item.name }}">
+          </a>
+        {% endfor %}
+      </div>
+      <div class="ac-promote">
+        <p class="ac-promote-text">Run a meetup or conference?</p>
+        <a class="ac-promote-btn ac-btn ac-btn--secondary ac-btn--large ac-btn--icon-right" target="_blank" rel="noopener" href="https://github.com/ultimateangular/angularconferences.github.io/blob/master/README.md">
+          Add your event<img src="/assets/img/icon/github_white-24px.svg" alt="GitHub icon">
+        </a>
+      </div>
+    </div>
+    <div class="ac-calendar">
+      <div class="sharethis-inline-share-buttons"></div>
+      <div class="u-boxed u-boxed--no-bottom">
+        {% include generic/calendar.html year="2018" %}
+      </div>
+      <div class="u-boxed u-boxed--no-bottom u-push40">
+        {% include generic/calendar.html year="2019" %}
+      </div>
+    </div>
+    <div class="ac-promote">
+      <p class="ac-promote-text">Run a meetup or conference?</p>
+      <a class="ac-promote-btn ac-btn ac-btn--secondary ac-btn--large ac-btn--icon-right" target="_blank" rel="noopener" href="https://github.com/ultimateangular/angularconferences.github.io/blob/master/README.md">
+        Add your event<img src="/assets/img/icon/github_white-24px.svg" alt="Github icon">
+      </a>
+    </div>
+    <div id="graphic-home-one" class="graphic graphic--large graphic--bottom-right"></div>
+    <div id="graphic-home-two" class="graphic graphic--large graphic--bottom-left"></div>
+  </div>
+</section>
+
+<section class="u-section--grey u-section--rounded u-section--rounded-top">
+  <section class="u-section u-section--equal u-section--coloured u-section--rounded-top-bottom">
+    <div class="u-wrapper">
+      <div class="u-section-row">
+        {% 
+          include generic/heading.html 
+          title="Learn Angular and JavaScript the right way"
+          subtitle="Join 50,000 others today who are mastering Angular with us through our award-winning online courses."
+          class="ac-heading--center ac-heading--white"
+          button="See Courses"
+          href="https://ultimatecourses.com/"
+        %}
+      </div>
+      <div class="u-section-row grid-3">
+        <div class="ac-product-overview">
+          <div class="ac-product-overview__heading">
+            <img class="ac-product-overview__heading-image" src="/assets/img/topic/angular.svg" alt="Ultimate Courses Angular Course">
+            <h2 class="ac-product-overview__heading-title">
+              Angular Framework
+            </h2>
+            <p class="ac-product-overview__heading-subtitle">
+              Up-to-date with
+              <span>v6.x</span>
+            </p>
+          </div>
+          <ul class="ac-product-overview__list">
+            <li class="ac-product-overview__list-item">
+              Module Architecture and Lazy Loading
+            </li>
+            <li class="ac-product-overview__list-item">
+              Smart/Dumb Component Architecture
+            </li>
+            <li class="ac-product-overview__list-item">
+              One-way Dataflow and Immutability
+            </li>
+            <li class="ac-product-overview__list-item">
+              Reactive Forms, Validators
+            </li>
+            <li class="ac-product-overview__list-item">
+              And much more...
+            </li>
+          </ul>
+        </div>
+        <div class="ac-product-overview">
+          <div class="ac-product-overview__heading">
+            <img class="ac-product-overview__heading-image" src="/assets/img/topic/ngrx.svg" alt="Ultimate Courses NGRX Course">
+            <h2 class="ac-product-overview__heading-title">
+              NGRX State Management
+            </h2>
+            <p class="ac-product-overview__heading-subtitle">
+              Up-to-date with
+              <span>v6.x</span>
+            </p>
+          </div>
+          <ul class="ac-product-overview__list">
+            <li class="ac-product-overview__list-item">
+              Redux Principles and Architecture
+            </li>
+            <li class="ac-product-overview__list-item">
+              Writing a Redux Store
+            </li>
+            <li class="ac-product-overview__list-item">
+              @ngrx/store and Component Architecture
+            </li>
+            <li class="ac-product-overview__list-item">
+              Actions/Action Creators
+            </li>
+            <li class="ac-product-overview__list-item">
+              And much more...
+            </li>
+          </ul>
+        </div>
+        <div class="ac-product-overview">
+          <div class="ac-product-overview__heading">
+            <img class="ac-product-overview__heading-image" src="/assets/img/topic/typescript.svg" alt="Ultimate Courses TypeScript Course">
+            <h2 class="ac-product-overview__heading-title">
+              TypeScript Language
+            </h2>
+            <p class="ac-product-overview__heading-subtitle">
+              Up-to-date with
+              <span>v2.x</span>
+            </p>
+          </div>
+          <ul class="ac-product-overview__list">
+            <li class="ac-product-overview__list-item">
+              Primitive and Special Types
+            </li>
+            <li class="ac-product-overview__list-item">
+              tsc and tsconfig
+            </li>
+            <li class="ac-product-overview__list-item">
+              Type Aliases and Assertions
+            </li>
+            <li class="ac-product-overview__list-item">
+              Enums and Interfaces
+            </li>
+            <li class="ac-product-overview__list-item">
+              Classes, Properties and Inheritance
+            </li>
+            <li class="ac-product-overview__list-item">
+              And much more...
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="u-section-row ac-quotes grid-2">
+        <div class="ac-product-quote">
+          <div class="ac-product-quote__author">
+            <div class="ac-product-quote__content">
+              <p class="ac-product-quote__content-text">
+                Ultimate Angular brings unique enthusiasm, activity and expertise to the Angular community.
+              </p>
+            </div>
+            <div class="ac-product-quote__author-picture">
+              <img src="/assets/img/review/brad-green.jpg" alt="Brad Green Picture">
+            </div>
+            <h4 class="ac-product-quote__author-name">
+              Brad Green
+            </h4>
+            <p class="ac-product-quote__author-meta">
+              Angular Product Manager
+              <span class="bullet">&bull;</span>
+              <img class="ac-product-quote-logo" src="/assets/img/brand/google.svg" alt="Google Brad Green">
+            </p>
+          </div>
+        </div>
+        <div class="ac-product-quote">
+          <div class="ac-product-quote__author">
+            <div class="ac-product-quote__content">
+              <p class="ac-product-quote__content-text">
+                Ultimate Angular's courses are one of the best online trainings that can be found.
+              </p>
+            </div>
+            <div class="ac-product-quote__author-picture">
+              <img src="/assets/img/review/john-oswalt.jpg" alt="John Oswalt Picture">
+            </div>
+            <h4 class="ac-product-quote__author-name">
+              John Oswalt
+            </h4>
+            <p class="ac-product-quote__author-meta">
+              Technology Expert, Walmart
+              <span class="bullet">&bull;</span>
+              <img class="ac-product-quote-logo" src="/assets/img/brand/walmart.svg" alt="Walmart Brad Green">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include footer.html %}
+</section>

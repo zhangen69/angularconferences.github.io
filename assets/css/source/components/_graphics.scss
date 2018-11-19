@@ -1,0 +1,137 @@
+.graphic,
+%graphic {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  border-radius: 50%;
+
+  // Sizes
+  &--large {
+    width: 1120px;
+    height: 1120px;
+    overflow: hidden;
+  }
+
+  &--medium {
+    width: 736px;
+    height: 736px;
+  }
+
+  &--xmedium {
+    width: 540px;
+    height: 540px;
+  }
+
+  &--small {
+    width: 60px;
+    height: 60px;
+  }
+
+  &--xsmall {
+    width: 24px;
+    height: 24px;
+  }
+
+  // Gradients
+  &--bottom-right {
+    background-image: linear-gradient(-36deg, $honey 0%, $passion 76%);
+
+    .ie9 & {
+      background: rgba($passion, 0.9);
+    }
+  }
+
+  &--bottom-left {
+    background-image: linear-gradient(36deg, $honey 0%, $passion 86%);
+
+    .ie9 & {
+      background: rgba($passion, 0.9);
+    }
+  }
+
+  &--left-right {
+    background-image: linear-gradient(-90deg, $passion 0%, $honey 100%);
+
+    .ie9 & {
+      background: rgba($passion, 0.9);
+    }
+  }
+}
+
+// Home page
+#graphic-home-one {
+  top: 40px;
+  left: -1020px;
+}
+
+#graphic-home-two {
+  bottom: 140px;
+  right: -1020px;
+}
+
+#graphic-home-three {
+  bottom: -530px;
+  left: -800px;
+}
+
+#graphic-home-four {
+  bottom: 0;
+  right: -40px;
+}
+
+/* Mobile Portrait and Landscape */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #graphic-home-one {
+    top: 360px;
+    left: -1020px;
+  }
+
+  #graphic-home-three {
+    bottom: -560px;
+    left: -680px;
+  }
+
+  #graphic-home-four {
+    bottom: auto;
+    right: 38px;
+    top: -70px;
+  }
+}
+
+/* Tablet Portrait and Landscape */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #graphic-home-one {
+    top: -240px;
+    left: -1000px;
+  }
+
+  #graphic-home-three {
+    bottom: -560px;
+    left: -680px;
+  }
+
+  #graphic-home-four {
+    bottom: auto;
+    right: 38px;
+    top: -70px;
+  }
+}
+
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #graphic-home-one {
+    top: -185px;
+    left: -980px;
+  }
+
+  #graphic-home-three {
+    bottom: -480px;
+    left: -650px;
+  }
+
+  #graphic-home-four {
+    bottom: auto;
+    right: 38px;
+    top: -70px;
+  }
+}

@@ -1,3 +1,8 @@
+.ac-calendar {
+  position: relative;
+  z-index: 2;
+}
+
 .ac-year {
   display: flex;
   align-items: center;
@@ -10,7 +15,7 @@
   &-title {
     font-size: 2.8rem;
     font-weight: $font-weight-book;
-    color: $night-80;
+    color: $slate-80;
     margin-top: 4px;
   }
 }
@@ -19,10 +24,12 @@
   &-filters {
     margin: 20px 0;
     font-size: 14px;
+
     span {
       margin: 0 4px;
-      color: $night-50;
+      color: $slate-50;
     }
+    
     p {
       display: inline-block;
       margin-right: 4px;
@@ -30,35 +37,24 @@
       margin-bottom: 7px;
       }
     }
+    
     a {
-      color: $night-50;
+      color: $slate-50;
       padding: 0 4px;
 
       &:hover {
-        color: $night-80;
+        color: $slate-80;
       }
 
       &.active {
-        color: $green;
+        color: $sky;
       }
-    }
-  }
-  &-box {
-    border-top: 1px solid $night-10;
-    padding: 30px 0 0;
-
-    @media only screen and (max-width: 560px) {
-      padding: 20px 0 0;
-    }
-
-    &:first-child {
-      border-top: 0;
     }
   }
 
   &-title {
     font-size: 14px;
-    color: $green;
+    color: $sky;
     line-height: 26px;
     margin-bottom: 10px;
   }
@@ -67,11 +63,11 @@
 .ac-box {
   display: none;
   position: relative;
-  border: 1px solid $night-10;
-  border-radius: $border-radius;
+  border: 1px solid $slate-10;
+  border-radius: 10px;
   padding: 12px 15px 10px;
   cursor: pointer;
-  transition: 0.2s ease box-shadow;
+  transition: 0.2s ease-in-out box-shadow, 0.2s ease-in-out border;
   margin-bottom: 30px;
 
   @media only screen and (max-width: 560px) {
@@ -80,6 +76,7 @@
 
   &:hover {
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid $slate-20;
   }
 
   &.active {
@@ -88,26 +85,24 @@
 
   &-title {
     font-size: $font-size-foxstrot;
-    color: $night-80;
+    color: $slate-80;
     margin-bottom: 8px;
 
     span {
-      text-transform: uppercase;
-      font-size: 8px;
-      background: #f4f9fa;
-      color: $night-50;
-      padding: 4px 6px 3px;
-      border-radius: 3px;
+      font-size: 10px;
+      background: rgba($slate, 0.05);
+      color: $slate-50;
+      padding: 4px 8px 2px;
+      border-radius: 20px;
       margin-left: 5px;
-      position: relative;
-      top: -3px;
+      float: right;
     }
   }
 
   &-date {
     font-weight: $font-weight-book;
     font-size: $font-size-epsilon;
-    color: $night-50;
+    color: $slate-50;
 
     span {
       margin: 0 8px;

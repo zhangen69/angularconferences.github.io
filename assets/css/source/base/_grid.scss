@@ -2,6 +2,18 @@
 %grid-base {
   display: flex;
   flex-wrap: wrap;
+
+  .no-flex & {
+    &:before,
+    &:after {
+      content: '';
+      display: table;
+    }
+
+    &:after {
+      clear: both;
+    }
+  }
 }
 
 // Base grid

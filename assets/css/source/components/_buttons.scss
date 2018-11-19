@@ -1,67 +1,95 @@
-/* BUTTONS */
-%btn-base {
-  font-family: $font-family-primary;
-  font-weight: $font-weight-book;
-  font-size: $font-size-delta;
-
-  position: relative;
-  display: inline-block;
-  margin: 0;
-
-  border-radius: 50px;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-}
-
 .ac-btn {
-  @extend %btn-base;
+  border: none;
+  display: inline-block;
+  font-size: $font-size-foxstrot;
+  font-family: $font-family-primary;
+  outline: none;
+  border-radius: 46px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 
-  // BTN STYLES
+  &:hover {
+    box-shadow: $box-shadow-hover;
+  }
+
   &--primary {
-    background: $green;
-    color: $white;
+    color: $sky;
+    background: $white;
+    box-shadow: $box-shadow;
 
     &:hover {
-      background: darken($green, 4%);
+      transform: translate(0, -2px);
+
+      .ie9 & {
+        transform: translate(0, 0);
+      }
     }
   }
 
   &--secondary {
-    background: $gradient;
     color: $white;
+    background: $sky;
+    box-shadow: $box-shadow;
+
+    &:hover {
+      transform: translate(0, -2px);
+      background: darken($sky, 6%);
+
+      .ie9 & {
+        transform: translate(0, 0);
+      }
+    }
   }
 
-  // BTN SIZES
+  &--tertiary {
+    color: $white;
+    background: $slate-40;
+    box-shadow: $box-shadow;
+
+    &:hover {
+      background: darken($slate-40, 6%);
+    }
+  }
+
+  &--xlarge {
+    line-height: 54px;
+    height: 54px;
+    padding: 0 26px;
+  }
+
   &--large {
-    height: 50px;
-    line-height: 50px;
-    padding: 0 30px;
+    line-height: 46px;
+    height: 46px;
+    padding: 0 26px;
   }
 
-  &--medium {
-    height: 40px;
-    line-height: 40px;
-    padding: 0 24px;
+  &--small {
+    padding: 9px 18px 7px;
   }
 
-  // BTN ICONS
-  &--has-icon {
+  &--icon-left,
+  &--icon-right {
     position: relative;
-    padding-right: 64px;
 
     img {
       position: absolute;
-      width: 20px;
-      top: 14px;
-      right: 28px;
-      transition: right 0.2s ease;
+      top: 10px;
     }
+  }
 
-    &:hover {
-      img {
-        right: 24px;
-      }
+  &--icon-left {
+    padding: 0 26px 0 52px;
+
+    img {
+      left: 18px;
+    }
+  }
+
+  &--icon-right {
+    padding: 0 52px 0 26px;
+
+    img {
+      right: 18px;
     }
   }
 }
