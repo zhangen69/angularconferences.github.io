@@ -2,6 +2,18 @@
 %grid-base {
   display: flex;
   flex-wrap: wrap;
+
+  .no-flex & {
+    &:before,
+    &:after {
+      content: '';
+      display: table;
+    }
+
+    &:after {
+      clear: both;
+    }
+  }
 }
 
 // Base grid
@@ -78,21 +90,13 @@
       margin-right: $grid-gutter;
     }
 
-    @media only screen and (max-width: 1040px) {
-      width: calc(50% - #{$grid-gutter} / 2);
+    @media only screen and (max-width: 760px) {
+      width: 100%;
 
       &:nth-child(3n + 2) {
         margin-left: 0;
         margin-right: 0;
       }
-
-      &:nth-child(2n + 1) {
-        margin-right: $grid-gutter;
-      }
-    }
-
-    @media only screen and (max-width: 760px) {
-      width: 100%;
 
       &:nth-child(2n + 1) {
         margin-right: 0;

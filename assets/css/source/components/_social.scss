@@ -1,0 +1,22 @@
+.ac-social {
+  &-item {
+    margin: 0 $spacing10;
+    display: inline-block;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .ac-social {
+    &-item {
+      img {
+        width: 24px;
+      }
+    }
+  }
+}

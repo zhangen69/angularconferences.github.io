@@ -1,19 +1,19 @@
 .ac-promote {
   text-align: center;
-  padding: 100px 0;
+  padding: 80px 0 180px;
 
   @media only screen and (max-width: 560px) {
     padding: 60px 0 100px;
   }
 
   .ac-confs & {
-    margin-top: $spacing30;
+    margin-top: 60px;
     padding: 0;
   }
 
   &-text {
     font-size: $font-size-delta;
-    color: $night-50;
+    color: $slate-60;
 
     @media only screen and (max-width: 560px) {
       font-size: 1.6rem;

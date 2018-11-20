@@ -1,0 +1,96 @@
+.ac-product-overview {
+  @extend %u-boxed;
+
+  border-radius: $border-radius;
+  padding: $spacing30 $spacing20;
+
+  .ie9 & {
+    min-height: 656px;
+  }
+
+  &__heading {
+    text-align: center;
+
+    &-image {
+      height: 40px;
+      margin-bottom: $spacing20;
+    }
+
+    &-title {
+      font-weight: $font-weight-book;
+      font-size: $font-size-delta;
+      line-height: 28px;
+    }
+
+    &-subtitle {
+      font-size: $font-size-epsilon;
+      color: $slate-40;
+
+      span {
+        color: $slate-60;
+      }
+    }
+  }
+
+  &__list {
+    margin-top: $spacing30;
+
+    &-item {
+      position: relative;
+      color: $slate-80;
+      padding: 6px 0;
+      padding-left: 32px;
+      line-height: 24px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 6px;
+        width: 24px;
+        height: 24px;
+        background: url('/assets/img/icon/checkmark-24px.svg') center center
+          no-repeat;
+      }
+    }
+  }
+}
+
+/* Mobile Portrait and Landscape */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .ac-product-overview {
+    padding: 26px;
+
+    &:nth-child(n + 2) {
+      margin-top: 26px;
+    }
+
+    &__heading {
+      &-image {
+        height: 26px;
+      }
+    }
+
+    &__list {
+      margin-top: 26px;
+
+      &-item {
+        padding-left: 24px;
+        line-height: 20px;
+        font-size: $font-size-epsilon;
+
+        &:before {
+          width: 18px;
+          height: 18px;
+          background: url('/assets/img/icon/checkmark-24px.svg') center center
+            no-repeat;
+          background-size: cover;
+        }
+      }
+    }
+  }
+}
+
+/* Tablet Portrait and Landscape */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}

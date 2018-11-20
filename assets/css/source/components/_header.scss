@@ -1,65 +1,100 @@
-/* HEADER */
-%ac-logo-dimensions {
-  display: inline-block;
-  width: auto;
-  height: 40px;
+.ac-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 50px 0;
+
+  &.sticky {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    transform: translateY(0);
+
+    background: $white;
+    padding: 14px 0;
+    height: 70px;
+    box-shadow: $box-shadow;
+    background-clip: padding-box;
+    border-bottom: $border;
+
+    &:after {
+      content: '';
+      position: absolute;
+      user-select: none;
+      pointer-events: none;
+      width: 736px;
+      height: 70px;
+      background: url('/assets/img/section/header.svg') center center no-repeat;
+      top: -1px;
+      left: 50%;
+    }
+
+    animation-duration: 0.4s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-name: animate-header-in;
+  }
 }
 
-.ac-header {
-  text-align: center;
-  margin-bottom: 80px;
+@keyframes animate-header-in {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(4px);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
-  @include z-index(relative, 10);
+@keyframes animate-header-out {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(4px);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+}
 
-  &--page {
-    background: $gradient;
+/* Mobile Portrait and Landscape */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .ac-header {
+    padding: 26px 0;
+
+    &.sticky {
+      height: 60px;
+
+      &:after {
+        top: -11px;
+        left: 37%;
+      }
+    }
+  }
+}
+
+/* Tablet Portrait and Landscape */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .ac-header {
     padding: $spacing40 0;
   }
+}
 
-  &__intro {
-    font-size: $font-size-foxstrot;
-    font-weight: $font-weight-book;
-    line-height: 28px;
-    color: $white;
-    margin-right: 8px;
-
-    .footer & {
-      color: $white-70;
-      font-weight: $font-weight-regular;
-      font-size: $font-size-epsilon;
-    }
-
-    @media only screen and (max-width: 860px) {
-      font-size: $font-size-delta;
-      line-height: 26px;
-    }
-
-    @media only screen and (max-width: 560px) {
-      font-size: $font-size-foxstrot;
-      line-height: 24px;
-    }
-  }
-
-  &__logo {
-    &-link {
-      @extend %ac-logo-dimensions;
-
-      .footer & {
-        height: 30px;
-      }
-    }
-
-    &-text {
-      text-indent: -9999px;
-      position: absolute;
-    }
-
-    &-image {
-      @extend %ac-logo-dimensions;
-
-      .footer & {
-        height: 30px;
-      }
-    }
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .ac-header {
+    padding: $spacing30 0;
   }
 }

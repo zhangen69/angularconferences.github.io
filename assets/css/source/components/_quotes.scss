@@ -1,80 +1,147 @@
-.quotes {
-  margin: 80px 0;
-
-  &__item {
-    position: relative;
-    text-align: center;
-    padding: 0 30px;
-
-    @media only screen and (max-width: 560px) {
-      padding: 0 10px;
+.ac-product-quote {
+  &:first-child {
+    padding-left: $spacing40;
+  }
+  &:last-child {
+    padding-right: $spacing40;
+  }
+  .bullet {
+    margin: 0 6px;
+    color: $white-40;
+  }
+  &--small {
+    &:nth-child(n + 4) {
+      margin-top: $spacing40;
     }
 
-    @media only screen and (max-width: 960px) {
-      &:last-child {
-        margin-top: 40px;
+    .ie9 & {
+      min-height: 248px;
+    }
+  }
+
+  &-logo {
+    height: 20px;
+  }
+
+  &__author {
+    &-picture {
+      width: 50px;
+      height: 50px;
+      margin-right: $spacing20;
+      position: relative;
+      float: left;
+      box-shadow: $box-shadow;
+      border-radius: 50%;
+
+      img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
       }
     }
 
-    &-quote {
-      font-family: $font-family-secondary;
-      font-style: italic;
-      font-size: 22px;
+    &-name {
       color: $white;
-      letter-spacing: -0.06px;
-      line-height: 32px;
+      font-weight: $font-weight-book;
+      line-height: 26px;
+      padding-top: 3px;
     }
 
-    &-logo {
-      height: 28px;
-      margin-bottom: 20px;
+    &-meta {
+      color: $white-80;
+      font-size: $font-size-epsilon;
+      line-height: 16px;
+    }
+  }
+
+  &__content {
+    margin-bottom: $spacing30;
+
+    &-text {
+      position: relative;
+      color: $white;
+      line-height: 24px;
+      padding-right: $spacing20;
+
+      &:before {
+        content: '“';
+        position: absolute;
+        top: 6px;
+        left: -22px;
+        font-size: 46px;
+        color: rgba($white, 0.3);
+      }
+    }
+  }
+}
+
+/* Mobile Portrait and Landscape */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .ac-product-quote {
+    text-align: center;
+
+    &:first-child {
+      padding: 0 20px;
+    }
+    &:last-child {
+      padding: 0 20px;
     }
 
-    &:before {
-      content: '“';
-
-      position: absolute;
-      top: 20px;
-      left: 0;
-
-      font-family: $font-family-secondary;
-      font-style: italic;
-      font-size: 120px;
-      color: rgba($white, 0.1);
+    &:nth-child(n + 2) {
+      margin-top: 52px;
     }
 
     &--small {
       text-align: center;
-      padding-left: 0;
 
-      &:before {
-        font-size: 90px;
-        top: -30px;
+      &:nth-child(n + 2) {
+        margin-top: 30px;
+      }
+    }
+
+    &__author {
+      &-picture {
+        width: 46px;
+        height: 46px;
+        margin: 0 auto $spacing10 auto;
+        float: none;
+
+        img {
+          width: 46px;
+          height: 46px;
+        }
+
+        .product-quote--small & {
+          width: 36px;
+          height: 36px;
+          margin: 0 auto $spacing10 auto;
+
+          img {
+            width: 36px;
+            height: 36px;
+          }
+        }
+      }
+    }
+
+    &__content {
+      margin-bottom: 14px;
+
+      &-text {
+        padding: 0;
+
+        &:before {
+          display: none;
+        }
+      }
+
+      .product-quote--small & {
+        margin-bottom: $spacing20;
       }
     }
   }
+}
 
-  &__author {
-    margin-top: 20px;
-
-    &-img {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      margin-bottom: 10px;
-    }
-
-    a {
-      font-weight: $font-weight-book;
-      font-size: 16px;
-      color: $white;
-    }
-
-    p {
-      font-size: 14px;
-      color: rgba($white, 0.6);
-      letter-spacing: 0.2px;
-      line-height: 18px;
-    }
-  }
+/* Tablet Portrait and Landscape */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 }

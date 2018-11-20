@@ -4,18 +4,19 @@
 
 html {
   font-family: $font-family-primary;
-  font-weight: $font-weight-regular;
+  font-weight: $font-weight-book;
   font-size: $font-size-base;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.2px;
-  color: $night;
+  color: $slate;
 
-  background: $cloud;
+  background: $white;
+  overflow-x: hidden;
 }
 
 body {
-  font-size: $font-size-gamma;
+  font-size: $font-size-foxstrot;
 
   overflow-x: hidden;
 }

@@ -4,7 +4,6 @@ $grid-gutter: 30px;
 
 // Fonts
 $font-family-primary: 'Geomanist', 'system';
-$font-family-secondary: 'Merriweather', 'system';
 $font-weight-regular: 300;
 $font-weight-book: normal;
 $font-weight-medium: 500;
@@ -20,48 +19,49 @@ $font-size-epsilon: 1.4rem;
 
 // Colours
 $white: #fff;
-$black: #000;
-$slate: #222;
-$cloud: #f6f9fa;
-$night: #26293a;
+$slate: #545e6f;
+$passion: #ff5acd;
+$honey: #fbd863;
+$sky: #44ccff;
+$cloud: #fafbfb;
 
-// Ultimate Angular
-$purple: #59009b;
-$pink: #bc04c7;
-$orange: #f4c150;
-$green: #24b373;
-$lila: #b27ebd;
-$gradient: linear-gradient(145deg, #bc04c7 0%, #59009b 100%);
-$angular: #c3002f;
-$typescript: #4a90e2;
+// Gradients
+$gradient: linear-gradient(55deg, $honey 0%, $passion 100%);
+$gradient-hero: linear-gradient(
+  -149deg,
+  rgba(65, 73, 86, 0.96) 0%,
+  rgba(52, 58, 68, 0.94) 100%
+);
 
 // Shades
-$night-80: rgba($night, 0.8);
-$night-60: rgba($night, 0.6);
-$night-50: rgba($night, 0.5);
-$night-40: rgba($night, 0.4);
-$night-30: rgba($night, 0.3);
-$night-20: rgba($night, 0.2);
-$night-10: rgba($night, 0.1);
-$night-05: rgba($night, 0.05);
+$slate-80: rgba($slate, 0.8);
+$slate-70: rgba($slate, 0.7);
+$slate-60: rgba($slate, 0.6);
+$slate-50: rgba($slate, 0.5);
+$slate-40: rgba($slate, 0.4);
+$slate-30: rgba($slate, 0.3);
+$slate-20: rgba($slate, 0.2);
+$slate-10: rgba($slate, 0.1);
 
 $white-80: rgba($white, 0.8);
 $white-70: rgba($white, 0.7);
 $white-60: rgba($white, 0.6);
 $white-40: rgba($white, 0.4);
 $white-20: rgba($white, 0.2);
-$white-10: rgba($white, 0.1);
-
-// Shadows
-$box-shadow: 0 4px 8px rgba($black, 0.1);
 
 // Spacing
 $spacing40: 40px;
 $spacing30: 30px;
 $spacing20: 20px;
+$spacing15: 15px;
 $spacing10: 10px;
 $spacing5: 5px;
 
 // Decoration
-$border-radius: 8px;
+$border-radius: 15px;
+$border-rounded: 100%;
 $padding: 30px;
+$border: 1px solid rgba($slate, 0.04);
+$box-shadow: 0 2px 3px 0 rgba($slate, 0.04), 0 6px 13px 0 rgba($slate, 0.08);
+$box-shadow-hover: 0 2px 3px 0 rgba($slate, 0.04),
+  0 8px 16px 0 rgba($slate, 0.12);

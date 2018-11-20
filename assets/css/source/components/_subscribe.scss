@@ -1,17 +1,17 @@
 .subscribe {
-  padding: 60px 30px;
-  background: $white;
   text-align: center;
+  max-width: 600px;
+  margin: auto;
 
   &-title {
-    color: $night-80;
-    font-size: $font-size-alpha;
-    line-height: 32px;
-    margin-bottom: $spacing5;
+    // color: $slate-80;
+    font-size: 3.6rem;
+    line-height: 44px;
+    margin-bottom: $spacing30;
   }
 
   &-text {
-    color: $night-50;
+    color: $slate-50;
     margin-bottom: $spacing40;
     font-size: $font-size-foxstrot;
     line-height: 22px;
@@ -111,7 +111,7 @@
   .ml-form-successBody
   .ml-form-successContent
   h4 {
-  color: $night-80;
+  color: $slate-80;
   font-size: $font-size-alpha;
   line-height: 32px;
   margin-bottom: $spacing5;
@@ -126,7 +126,7 @@
   .ml-form-successBody
   .ml-form-successContent
   p {
-  color: $night-50;
+  color: $slate-50;
   font-size: $font-size-foxstrot;
   line-height: 22px;
 }
@@ -180,7 +180,7 @@
   background: $white !important;
   border-radius: 25px !important;
   height: 50px !important;
-  border: 1px solid $night-10 !important;
+  border: 1px solid $slate-10 !important;
   padding: 0 24px !important;
   font-size: $font-size-foxstrot !important;
   font-family: $font-family-primary !important;
@@ -197,7 +197,7 @@
   .ml-form-embedBody
   .ml-form-horizontalRow
   input::-webkit-input-placeholder {
-  color: $night-40;
+  color: $slate-40;
 }
 
 #mlb2-1045148.ml-form-embedContainer
@@ -210,7 +210,7 @@
   .ml-form-embedBody
   .ml-form-horizontalRow
   input::-moz-placeholder {
-  color: $night-40;
+  color: $slate-40;
 }
 
 #mlb2-1045148.ml-form-embedContainer
@@ -223,7 +223,7 @@
   .ml-form-embedBody
   .ml-form-horizontalRow
   input:-ms-input-placeholder {
-  color: $night-40;
+  color: $slate-40;
 }
 
 #mlb2-1045148.ml-form-embedContainer
@@ -236,7 +236,7 @@
   .ml-form-embedBody
   .ml-form-horizontalRow
   input:-moz-placeholder {
-  color: $night-40;
+  color: $slate-40;
 }
 
 #mlb2-1045148.ml-form-embedContainer
@@ -263,7 +263,7 @@
   background: $white !important;
   border-radius: 25px !important;
   height: 50px !important;
-  border: 1px solid $night-10 !important;
+  border: 1px solid $slate-10 !important;
   padding: 0 24px !important;
   font-size: $font-size-foxstrot !important;
   font-family: $font-family-primary !important;
@@ -276,14 +276,11 @@
   .ml-form-horizontalRow
   button {
   position: absolute;
-  top: 2px;
-  right: 2px;
-
-  /* IE9- Fallback */
-  background: #bc04c7;
-  background: $gradient;
+  top: 4px;
+  right: 4px;
+  background: $sky;
   border: none;
-  height: 46px;
+  height: 42px;
   border-radius: 25px;
   padding: 0 24px;
   color: $white;
@@ -320,14 +317,11 @@
   .ml-form-embedSubmit
   button {
   position: absolute;
-  top: 2px;
-  right: 2px;
-
-  /* IE9- Fallback */
-  background: #bc04c7;
-  background: $gradient;
+  top: 4px;
+  right: 4px;
+  background: $sky;
   border: none;
-  height: 46px;
+  height: 42px;
   border-radius: 25px;
   padding: 0 24px;
   color: $white;

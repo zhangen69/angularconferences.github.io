@@ -9,6 +9,17 @@
   <link rel="stylesheet" href="{{ "/assets/css/app.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico'>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ultimateangular">
+  <meta name="twitter:creator" content="@ultimateangular">
+  <meta name="twitter:title" content="🔥 Calendar for the Angular community events happening across the globe. See what's happening:">
+  <meta name="twitter:description" content="Find the next Angular Conference near you!">
+  <meta name="twitter:image" content="/assets/img/share/share.jpg">
+  <meta property="og:url" content="https://angularconferences.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🔥 Calendar for the Angular community events happening across the globe. See what's happening:">
+  <meta property="og:description" content="Find the next Angular Conference near you!">
+  <meta property="og:image"  content="/assets/img/share/share.jpg">
   <script>
     var supportsSVG = !!(document.createElementNS && document.createElementNS('http://www.w3.org/2000/svg','svg').createSVGRect);
     supportsSVG && (document.documentElement.className += 'svg');
@@ -41,5 +52,4 @@
     gtag('js', new Date());
     gtag('config', 'UA-20440416-25');
   </script>
-  {% include generic/social.html %}
 </head>
