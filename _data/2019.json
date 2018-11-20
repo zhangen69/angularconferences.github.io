@@ -14,10 +14,55 @@
         "web": "http://ng-atl.org/",
         "twitter": "ngAtlanta"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "CA",
+        "location": "Montreal",
+        "title": "Angular Academy",
+        "date": "28-29",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Montreal with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "CA",
+        "location": "Ottawa",
+        "title": "Angular Academy",
+        "date": "31",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Ottawa with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
     }
   ],
   "February": [
-     {
+    {
+      "metadata": {
+        "country_code": "CA",
+        "location": "Toronto",
+        "title": "Angular Academy",
+        "date": "07-08",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Toronto with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
+    },
+    {
       "metadata": {
         "country_code": "NL",
         "location": "Amsterdam",
