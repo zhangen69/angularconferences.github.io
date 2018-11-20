@@ -193,7 +193,23 @@
       }
     }
   ],
-  "August": [],
+  "August": [
+    {
+      "metadata": {
+        "country_code": "DE",
+        "location": "Berlin",
+        "title": "NG-DE",
+        "date": "30-31",
+        "logo": "ngde.svg",
+        "type": "conference",
+        "desc": "NG-DE is the first community-driven Angular conference in Germany. We will run the opening event in Berlin, 30 & 31 August 2019. The venue BOLLE FESTSÄLE is located next to the beautiful river Spree, close to Bellevue palace and Tiergarten. A bunch of one-day workshops are planned for August 29 which can be booked separately."
+      },
+      "links": {
+        "web": "https://ng-de.org/",
+        "twitter": "ngdeconf"
+      }
+    }
+  ],
   "September": [
   {
       "metadata": {
@@ -213,21 +229,5 @@
   ],
   "October": [],
   "November": [],
-  "December": [
-    {
-      "metadata": {
-        "country_code": "DE",
-        "location": "Berlin",
-        "title": "ngDE",
-        "date": "",
-        "logo": "blank.svg",
-        "type": "conference",
-        "desc": "Angular Community Conference • Summer 2019 • Berlin, Germany"
-      },
-      "links": {
-        "web": "https://ng-de.org/",
-        "twitter": "ngdeconf"
-      }
-    }
-  ]
+  "December": []
 }
