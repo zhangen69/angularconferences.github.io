@@ -110,23 +110,7 @@
       }
     }
   ],
-  "April": [
-    {
-      "metadata": {
-        "country_code": "DK",
-        "location": "",
-        "title": "ngVikings",
-        "date": "",
-        "logo": "ngvikings.svg",
-        "type": "conference",
-        "desc": "ngVikings is a non-profit, non-commercial, 100% community-driven event comprised of many Nordic Angular groups with more than 3500 active members in total. Always having Angular team members, Google Developer Experts and legendary international speakers onboard, ngVikings Conference guarantees an excellent program: fresh, technically deep and 100% useful."
-      },
-      "links": {
-        "web": "https://ngvikings.org/",
-        "twitter": "ngVikingsConf"
-      }
-    }
-  ],
+  "April": [],
   "May": [
     {
       "metadata": {
@@ -141,6 +125,21 @@
       "links": {
         "web": "https://www.ng-conf.org/",
         "twitter": "ngconf"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "DK",
+        "location": "Copenhagen",
+        "title": "ngVikings",
+        "date": "27-28",
+        "logo": "ngvikings.svg",
+        "type": "conference",
+        "desc": "ngVikings is a non-profit, non-commercial, 100% community-driven event comprised of many Nordic Angular groups with more than 3500 active members in total. Always having Angular team members, Google Developer Experts and legendary international speakers onboard, ngVikings Conference guarantees an excellent program: fresh, technically deep and 100% useful."
+      },
+      "links": {
+        "web": "https://ngvikings.org/",
+        "twitter": "ngVikingsConf"
       }
     }
   ],
