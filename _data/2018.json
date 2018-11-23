@@ -226,9 +226,10 @@
         "desc": "A group of Angular Enthusiasts in Thailand"
       },
       "links": {
-        "web": "https://dev.wi.th/community/rykEnQHP7",
+        "web": "https://www.facebook.com/groups/angularjs.th",
         "meetup": "https://www.eventpop.me/e/4415",
-        "facebook": "angularth"
+        "facebook": "angularth",
+        "twitter": "AngularThailand"
       }
     }
   ],
@@ -387,6 +388,23 @@
       "links": {
         "web": "https://angular.ac",
         "twitter": "AngularAcademy"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "TH",
+        "location": "Bangkok",
+        "title": "Angular Thailand",
+        "date": "28",
+        "logo": "angularth.svg",
+        "type": "meetup",
+        "desc": "A group of Angular Enthusiasts in Thailand"
+      },
+      "links": {
+        "web": "https://www.facebook.com/groups/angularjs.th",
+        "meetup": "https://www.eventpop.me/e/4681-angular-th-hosted-by-7-peaks-software",
+        "facebook": "angularth",
+        "twitter": "AngularThailand"
       }
     }
   ],
