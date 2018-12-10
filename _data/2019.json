@@ -64,6 +64,21 @@
     },
     {
       "metadata": {
+        "country_code": "CA",
+        "location": "Québec",
+        "title": "Académie Angular",
+        "date": "14-15",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Académie Angular est un Workshop intensif de 2 jours pour les développeurs web professionnels! Apprendre Angular 7 et TypeScript Maintenant à Québec avec cette formation immersive en classe avec instructeur!"
+      },
+      "links": {
+        "web": "https://angular.ac/fr",
+        "twitter": "AngularAcademy"
+      }
+    },
+    {
+      "metadata": {
         "country_code": "NL",
         "location": "Amsterdam",
         "title": "NGX Amsterdam",
@@ -91,7 +106,22 @@
         "web": "http://www.ng-ind.com/",
         "twitter": "geeknineseven" 
       }
-    }
+    },
+    {
+      "metadata": {
+        "country_code": "CA",
+        "location": "Vancouver",
+        "title": "Angular Academy",
+        "date": "26-27",
+        "logo": "angular-academy.svg",
+        "type": "workshop",
+        "desc": "Angular Academy is a 2-day intensive coding workshop for professional web developers in Canada! Learn Angular 7 and TypeScript Now in Vancouver with this immersive instructor-led classroom training!"
+      },
+      "links": {
+        "web": "https://angular.ac",
+        "twitter": "AngularAcademy"
+      }
+    },
   ],
   "March": [
     {
