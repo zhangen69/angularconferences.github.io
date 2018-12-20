@@ -121,7 +121,7 @@
         "web": "https://angular.ac",
         "twitter": "AngularAcademy"
       }
-    },
+    }
   ],
   "March": [
     {
@@ -137,6 +137,21 @@
       "links": {
         "web": "https://www.angularnl.com",
         "twitter": "angularnl"
+      }
+    },
+    {
+      "metadata": {
+        "country_code": "FI",
+        "location": "Helsinki (Espoo)",
+        "title": "The Big Hangout 2019",
+        "date": "14",
+        "logo": "bighangoutfinlandlogo.svg",
+        "type": "conference",
+        "desc": "Angular stories, emerging techniques and proven approaches for Angular developers. This is a half-day and evening event for Angular community in Finland and international guests."
+      },
+      "links": {
+        "web": "https://angular.fi/2019",
+        "twitter": "angularFI"
       }
     }
   ],
@@ -254,7 +269,7 @@
         "web": "https://ngtalks.io/",
         "twitter": "ngTalks_ua"
       }
-    },
+    }
   ],
   "October": [],
   "November": [ 
@@ -270,7 +285,7 @@
       },
       "links": {        
       }
-    },
+    }
   ],
   "December": []
 }
