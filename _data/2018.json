@@ -487,6 +487,23 @@
         "meetup": "http://www.meetup.com/fr-FR/ngMorocco/",
         "twitter": "ngMorocco"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "TH",
+        "location": "Bangkok",
+        "title": "Angular Thailand",
+        "date": "26",
+        "logo": "angularth.svg",
+        "type": "meetup",
+        "desc": "A group of Angular Enthusiasts in Thailand"
+      },
+      "links": {
+        "web": "https://www.facebook.com/groups/angularjs.th",
+        "meetup": "https://www.eventpop.me/e/4780",
+        "facebook": "angularth",
+        "twitter": "AngularThailand"
+      }
     }
   ]
 }
