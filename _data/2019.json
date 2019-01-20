@@ -300,6 +300,21 @@
         "web": "https://www.ngspain.com/",
         "twitter": "ngSpain"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "SL",
+        "location": "Colombo",
+        "title": "ngSriLanka",
+        "date": "29-30",
+        "logo": "ngSriLanka.svg",
+        "type": "conference",
+        "desc": "ngSriLanka 2019 is Sri Lanka's first ever Angular conference. It will be held in Colombo and organized by the enthusiastic, local Angular community with over 800 developers"
+      },
+      "links": {
+        "web": "https://www.ng-srilanka.com/",
+        "twitter": "ngslconf"
+      }
     }
   ],
   "July": [
@@ -333,7 +348,7 @@
         "meetup": "https://www.meetup.com/Angular-Lunch/",
         "twitter": "Angular_Lunch"
       }
-    },
+    }
   ],
   "August": [
     {
