@@ -79,21 +79,6 @@
     },
     {
       "metadata": {
-        "country_code": "NL",
-        "location": "Amsterdam",
-        "title": "NGX Amsterdam",
-        "date": "22",
-        "logo": "blank.svg",
-        "type": "conference",
-        "desc": "NGX Amsterdam. NG-NL reborn. Made by developers for developers."
-      },
-      "links": {
-        "web": "",
-        "twitter": "ngxamsterdam"
-      }
-    },
-    {
-      "metadata": {
         "country_code": "IN",
         "location": "Gurgaon",
         "title": "ngIndia",
@@ -177,7 +162,7 @@
         "country_code": "DK",
         "location": "Copenhagen",
         "title": "ngVikings",
-        "date": "27-28",
+        "date": "26-28",
         "logo": "ngvikings.svg",
         "type": "conference",
         "desc": "ngVikings is a non-profit, non-commercial, 100% community-driven event comprised of many Nordic Angular groups with more than 3500 active members in total. Always having Angular team members, Google Developer Experts and legendary international speakers onboard, ngVikings Conference guarantees an excellent program: fresh, technically deep and 100% useful."
@@ -218,6 +203,21 @@
         "web": "https://www.ngspain.com/",
         "twitter": "ngSpain"
       }
+    },
+    {
+      "metadata": {
+        "country_code": "SL",
+        "location": "Colombo",
+        "title": "ngSriLanka",
+        "date": "29-30",
+        "logo": "ngSriLanka.svg",
+        "type": "conference",
+        "desc": "ngSriLanka 2019 is Sri Lanka's first ever Angular conference. It will be held in Colombo and organized by the enthusiastic, local Angular community with over 800 developers"
+      },
+      "links": {
+        "web": "https://www.ng-srilanka.com/",
+        "twitter": "ngslconf"
+      }
     }
   ],
   "July": [
@@ -234,6 +234,23 @@
       "links": {
         "web": "http://angulardenver.com/",
         "twitter": "AngularDenver"
+      }
+
+    },
+      {
+      "metadata": {
+        "country_code": "US",
+        "location": "St. Louis, MO",
+        "title": "Angular Lunch STL",
+        "date": "17",
+        "logo": "STLAngularLunch.svg",
+        "type": "meetup",
+        "desc": "We meet at lunch time to talk about all things Angular. Usually one Wednesday per month. Come join us for presentations and deep Angular discussion. Lunch will be provided."
+      },
+      "links": {
+        "youtube": "https://www.youtube.com/user/OasisDigitalSoftware",
+        "meetup": "https://www.meetup.com/Angular-Lunch/",
+        "twitter": "Angular_Lunch"
       }
     }
   ],
