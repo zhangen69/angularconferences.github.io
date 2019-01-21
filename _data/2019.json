@@ -15,22 +15,6 @@
         "twitter": "ngAtlanta"
       }
     },
-        {
-      "metadata": {
-        "country_code": "US",
-        "location": "St. Louis, MO",
-        "title": "Angular Lunch STL",
-        "date": "16",
-        "logo": "STLAngularLunch.svg",
-        "type": "meetup",
-        "desc": "We meet at lunch time to talk about all things Angular. Usually one Wednesday per month. Come join us for presentations and deep Angular discussion. Lunch will be provided."
-      },
-      "links": {
-        "youtube": "https://www.youtube.com/user/OasisDigitalSoftware",
-        "meetup": "https://www.meetup.com/Angular-Lunch/",
-        "twitter": "Angular_Lunch"
-      }
-    },
     {
       "metadata": {
         "country_code": "CA",
@@ -91,22 +75,6 @@
       "links": {
         "web": "https://angular.ac/fr",
         "twitter": "AngularAcademy"
-      }
-    },
-        {
-      "metadata": {
-        "country_code": "US",
-        "location": "St. Louis, MO",
-        "title": "Angular Lunch STL",
-        "date": "20",
-        "logo": "STLAngularLunch.svg",
-        "type": "meetup",
-        "desc": "We meet at lunch time to talk about all things Angular. Usually one Wednesday per month. Come join us for presentations and deep Angular discussion. Lunch will be provided."
-      },
-      "links": {
-        "youtube": "https://www.youtube.com/user/OasisDigitalSoftware",
-        "meetup": "https://www.meetup.com/Angular-Lunch/",
-        "twitter": "Angular_Lunch"
       }
     },
     {
@@ -170,42 +138,9 @@
         "web": "https://angular.fi/2019",
         "twitter": "angularFI"
       }
-    },
-        {
-      "metadata": {
-        "country_code": "US",
-        "location": "St. Louis, MO",
-        "title": "Angular Lunch STL",
-        "date": "20",
-        "logo": "STLAngularLunch.svg",
-        "type": "meetup",
-        "desc": "We meet at lunch time to talk about all things Angular. Usually one Wednesday per month. Come join us for presentations and deep Angular discussion. Lunch will be provided."
-      },
-      "links": {
-        "youtube": "https://www.youtube.com/user/OasisDigitalSoftware",
-        "meetup": "https://www.meetup.com/Angular-Lunch/",
-        "twitter": "Angular_Lunch"
-      }
     }
   ],
-  "April": [
-      {
-      "metadata": {
-        "country_code": "US",
-        "location": "St. Louis, MO",
-        "title": "Angular Lunch STL",
-        "date": "17",
-        "logo": "STLAngularLunch.svg",
-        "type": "meetup",
-        "desc": "We meet at lunch time to talk about all things Angular. Usually one Wednesday per month. Come join us for presentations and deep Angular discussion. Lunch will be provided."
-      },
-      "links": {
-        "youtube": "https://www.youtube.com/user/OasisDigitalSoftware",
-        "meetup": "https://www.meetup.com/Angular-Lunch/",
-        "twitter": "Angular_Lunch"
-      }
-    },
-  ],
+  "April": [],
   "May": [
     {
       "metadata": {
@@ -220,22 +155,6 @@
       "links": {
         "web": "https://www.ng-conf.org/",
         "twitter": "ngconf"
-      }
-    },
-        {
-      "metadata": {
-        "country_code": "US",
-        "location": "St. Louis, MO",
-        "title": "Angular Lunch STL",
-        "date": "15",
-        "logo": "STLAngularLunch.svg",
-        "type": "meetup",
-        "desc": "We meet at lunch time to talk about all things Angular. Usually one Wednesday per month. Come join us for presentations and deep Angular discussion. Lunch will be provided."
-      },
-      "links": {
-        "youtube": "https://www.youtube.com/user/OasisDigitalSoftware",
-        "meetup": "https://www.meetup.com/Angular-Lunch/",
-        "twitter": "Angular_Lunch"
       }
     },
     {
@@ -268,22 +187,6 @@
       "links": {
         "web": "http://angularday.it/",
         "twitter": "angularday"
-      }
-    },
-        {
-      "metadata": {
-        "country_code": "US",
-        "location": "St. Louis, MO",
-        "title": "Angular Lunch STL",
-        "date": "19",
-        "logo": "STLAngularLunch.svg",
-        "type": "meetup",
-        "desc": "We meet at lunch time to talk about all things Angular. Usually one Wednesday per month. Come join us for presentations and deep Angular discussion. Lunch will be provided."
-      },
-      "links": {
-        "youtube": "https://www.youtube.com/user/OasisDigitalSoftware",
-        "meetup": "https://www.meetup.com/Angular-Lunch/",
-        "twitter": "Angular_Lunch"
       }
     },
     {
@@ -332,6 +235,7 @@
         "web": "http://angulardenver.com/",
         "twitter": "AngularDenver"
       }
+
     },
       {
       "metadata": {
