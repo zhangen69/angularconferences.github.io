@@ -222,6 +222,22 @@
       }
 
     },
+    {
+      "metadata": {
+        "country_code": "MY",
+        "location": "Kuala Lumpur",
+        "title": "NG-MY",
+        "date": "06-07",
+        "logo": "ngmy.svg",
+        "type": "conference",
+        "desc": "NG-MY 2019 is the first community-driven Angular conference in Southeast Asia. It will take place in Kuala Lumpur, Malaysia."
+      },
+      "links": {
+        "web": "https://ng-my.org/",
+        "twitter": "ngmyconf"
+      }
+
+    },
       {
       "metadata": {
         "country_code": "US",
